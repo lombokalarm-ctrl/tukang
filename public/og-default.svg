@@ -1,0 +1,16 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="40" fill="#0F172A"/>
+  <circle cx="1080" cy="100" r="220" fill="#F97316" fill-opacity="0.18"/>
+  <circle cx="140" cy="80" r="180" fill="#0284C7" fill-opacity="0.18"/>
+  <rect x="80" y="80" width="130" height="130" rx="32" fill="url(#paint0_linear)"/>
+  <path d="M115 152V116h51v9H126v27h-11zm22 28v-44h11v44h-11zm11 0v-11h22v-9h-22v-11h33v31h-33z" fill="white"/>
+  <text x="80" y="285" fill="white" font-size="68" font-family="Arial, sans-serif" font-weight="800">TukangDiLombok.com</text>
+  <text x="80" y="355" fill="#CBD5E1" font-size="30" font-family="Arial, sans-serif">Jasa tukang dan teknisi profesional di Pulau Lombok</text>
+  <text x="80" y="420" fill="#FDBA74" font-size="24" font-family="Arial, sans-serif">SEO lokal kuat • CTA WhatsApp • App Router Ready</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="93" y1="91" x2="196" y2="195" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316"/>
+      <stop offset="1" stop-color="#0284C7"/>
+    </linearGradient>
+  </defs>
+</svg>

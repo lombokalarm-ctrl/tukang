@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "renovasi-dapur-minimalis-mataram",
+    "title": "Renovasi Dapur Minimalis Mataram",
+    "serviceSlug": "renovasi-rumah",
+    "locationSlug": "mataram",
+    "summary": "Upgrade dapur lama menjadi area masak modern dengan kitchen set dan pencahayaan lebih terang.",
+    "before": "Layout sempit, dinding lembap, dan kabinet lama tidak efisien.",
+    "after": "Dapur lebih lapang, penyimpanan rapi, dan tampilan lebih premium.",
+    "image": "/portfolio/portfolio-1.svg",
+    "value": "Hunian lebih nyaman dan nilai properti meningkat."
+  },
+  {
+    "slug": "instalasi-cctv-villa-senggigi",
+    "title": "Instalasi CCTV Villa Senggigi",
+    "serviceSlug": "tukang-cctv",
+    "locationSlug": "senggigi",
+    "summary": "Pemasangan kamera area lobby, parkir, dan koridor dengan akses monitoring dari smartphone.",
+    "before": "Titik blind spot tinggi dan tidak ada rekaman terpusat.",
+    "after": "Area pengawasan lebih aman dengan monitoring real-time.",
+    "image": "/portfolio/portfolio-2.svg",
+    "value": "Keamanan operasional properti meningkat."
+  },
+  {
+    "slug": "service-ac-hotel-praya",
+    "title": "Service dan Cuci AC Hotel Praya",
+    "serviceSlug": "tukang-ac",
+    "locationSlug": "praya",
+    "summary": "Maintenance unit AC beberapa kamar hotel agar performa dingin kembali stabil.",
+    "before": "Beberapa kamar kurang dingin dan konsumsi listrik meningkat.",
+    "after": "AC lebih dingin, bersih, dan nyaman untuk tamu.",
+    "image": "/portfolio/portfolio-3.svg",
+    "value": "Kenyamanan tamu meningkat tanpa ganti unit baru."
+  },
+  {
+    "slug": "instalasi-listrik-ruko-cakranegara",
+    "title": "Instalasi Listrik Ruko Cakranegara",
+    "serviceSlug": "tukang-listrik",
+    "locationSlug": "cakranegara",
+    "summary": "Penambahan panel, stop kontak, titik lampu, dan penataan jalur kabel untuk ruko baru.",
+    "before": "Instalasi awal belum rapi dan belum sesuai kebutuhan tenant.",
+    "after": "Sistem listrik aman, rapi, dan siap operasional.",
+    "image": "/portfolio/portfolio-4.svg",
+    "value": "Ruko siap dipakai lebih cepat."
+  },
+  {
+    "slug": "kanopi-carport-lombok-barat",
+    "title": "Kanopi Carport Lombok Barat",
+    "serviceSlug": "kanopi",
+    "locationSlug": "lombok-barat",
+    "summary": "Pembuatan kanopi carport modern dengan rangka kuat dan tampilan fasad lebih bersih.",
+    "before": "Area parkir panas dan fasad depan terlihat kosong.",
+    "after": "Carport teduh dan rumah terlihat lebih modern.",
+    "image": "/portfolio/portfolio-1.svg",
+    "value": "Fungsi parkir dan tampilan rumah naik sekaligus."
+  },
+  {
+    "slug": "wifi-villa-kuta-mandalika",
+    "title": "Penataan WiFi Villa Kuta Mandalika",
+    "serviceSlug": "internet-wifi",
+    "locationSlug": "kuta-mandalika",
+    "summary": "Setup router dan access point agar sinyal merata di seluruh area villa.",
+    "before": "Banyak area tidak terjangkau sinyal dan tamu sering komplain.",
+    "after": "Koneksi lebih stabil dengan jangkauan merata.",
+    "image": "/portfolio/portfolio-2.svg",
+    "value": "Pengalaman tamu jadi lebih baik."
+  }
+]

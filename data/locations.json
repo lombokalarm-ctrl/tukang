@@ -1,0 +1,152 @@
+[
+  {
+    "slug": "mataram",
+    "name": "Mataram",
+    "type": "Kota",
+    "featured": true,
+    "excerpt": "Layanan cepat untuk area Mataram, pusat kota, perumahan, ruko, dan area bisnis.",
+    "description": "Area layanan prioritas untuk Mataram dan sekitarnya dengan akses teknisi yang cepat dan cocok untuk rumah tinggal, toko, kantor, hingga hotel kecil.",
+    "neighborhoods": ["Pagesangan", "Selaparang", "Karang Pule", "Monjok"],
+    "keywords": ["tukang mataram", "jasa tukang mataram", "teknisi mataram"]
+  },
+  {
+    "slug": "lombok-barat",
+    "name": "Lombok Barat",
+    "type": "Kabupaten",
+    "featured": true,
+    "excerpt": "Cocok untuk villa, rumah, dan bisnis di Lombok Barat dengan penjadwalan fleksibel.",
+    "description": "Tim kami melayani berbagai kebutuhan tukang dan teknisi di Lombok Barat mulai dari perumahan, villa, homestay, restoran, hingga fasilitas komersial.",
+    "neighborhoods": ["Lembar", "Kediri", "Labuapi", "Sekotong"],
+    "keywords": ["tukang lombok barat", "jasa tukang lombok barat", "teknisi lombok barat"]
+  },
+  {
+    "slug": "lombok-timur",
+    "name": "Lombok Timur",
+    "type": "Kabupaten",
+    "featured": true,
+    "excerpt": "Jasa tukang dan teknisi untuk rumah, toko, dan bangunan usaha di Lombok Timur.",
+    "description": "Area Lombok Timur kami layani untuk kebutuhan konstruksi, renovasi, teknisi, dan maintenance dengan pendekatan kerja yang rapi dan terukur.",
+    "neighborhoods": ["Masbagik", "Aikmel", "Sakra", "Labuhan Haji"],
+    "keywords": ["tukang lombok timur", "jasa tukang lombok timur", "teknisi lombok timur"]
+  },
+  {
+    "slug": "lombok-tengah",
+    "name": "Lombok Tengah",
+    "type": "Kabupaten",
+    "featured": true,
+    "excerpt": "Ideal untuk kawasan rumah, hotel, villa, dan proyek berkembang di Lombok Tengah.",
+    "description": "Kami siap menangani kebutuhan tukang dan teknisi di Lombok Tengah untuk properti hunian maupun komersial dengan fokus kecepatan respons dan kualitas hasil.",
+    "neighborhoods": ["Jonggat", "Pujut", "Batukliang", "Praya Barat"],
+    "keywords": ["tukang lombok tengah", "jasa tukang lombok tengah", "teknisi lombok tengah"]
+  },
+  {
+    "slug": "lombok-utara",
+    "name": "Lombok Utara",
+    "type": "Kabupaten",
+    "featured": false,
+    "excerpt": "Melayani area hunian, vila, dan properti wisata di Lombok Utara.",
+    "description": "Lombok Utara menjadi area layanan untuk proyek maintenance villa, rumah tinggal, maupun kebutuhan teknisi pada properti wisata dan penginapan.",
+    "neighborhoods": ["Tanjung", "Gangga", "Kayangan", "Pemenang"],
+    "keywords": ["tukang lombok utara", "jasa tukang lombok utara", "teknisi lombok utara"]
+  },
+  {
+    "slug": "senggigi",
+    "name": "Senggigi",
+    "type": "Kawasan",
+    "featured": true,
+    "excerpt": "Solusi tukang dan teknisi untuk villa, resort, restoran, dan properti wisata di Senggigi.",
+    "description": "Senggigi adalah area strategis untuk layanan maintenance cepat pada villa, hotel, dan properti hospitality yang butuh hasil rapi serta minim gangguan operasional.",
+    "neighborhoods": ["Kerandangan", "Mangsit", "Batu Layar", "Meninting"],
+    "keywords": ["tukang senggigi", "jasa tukang senggigi", "teknisi senggigi"]
+  },
+  {
+    "slug": "praya",
+    "name": "Praya",
+    "type": "Kota",
+    "featured": true,
+    "excerpt": "Layanan praktis untuk hunian, ruko, dan area berkembang di Praya.",
+    "description": "Praya kami dukung dengan layanan tukang yang siap untuk pembangunan baru, renovasi, instalasi teknisi, dan maintenance rutin bangunan.",
+    "neighborhoods": ["Praya Tengah", "Renteng", "Prapen", "Leneng"],
+    "keywords": ["tukang praya", "jasa tukang praya", "teknisi praya"]
+  },
+  {
+    "slug": "selong",
+    "name": "Selong",
+    "type": "Kota",
+    "featured": false,
+    "excerpt": "Jasa tukang untuk rumah, toko, dan renovasi properti di Selong dan sekitarnya.",
+    "description": "Selong menjadi salah satu area layanan untuk kebutuhan teknisi, renovasi, dan pekerjaan bangunan harian maupun borongan.",
+    "neighborhoods": ["Majidi", "Kelayu", "Sandubaya", "Danger"],
+    "keywords": ["tukang selong", "jasa tukang selong", "teknisi selong"]
+  },
+  {
+    "slug": "gerung",
+    "name": "Gerung",
+    "type": "Kecamatan",
+    "featured": false,
+    "excerpt": "Melayani rumah, bangunan usaha, dan proyek perumahan di Gerung.",
+    "description": "Area Gerung kami tangani untuk kebutuhan tukang bangunan, renovasi rumah, teknisi listrik, plumbing, dan pekerjaan pendukung lainnya.",
+    "neighborhoods": ["Dasan Tapen", "Banyu Urip", "Gapuk", "Kebon Ayu"],
+    "keywords": ["tukang gerung", "jasa tukang gerung", "teknisi gerung"]
+  },
+  {
+    "slug": "kuta-mandalika",
+    "name": "Kuta Mandalika",
+    "type": "Kawasan",
+    "featured": true,
+    "excerpt": "Prioritas untuk proyek villa, homestay, restoran, dan properti hospitality di Kuta Mandalika.",
+    "description": "Kuta Mandalika kami layani untuk kebutuhan pembangunan, renovasi, interior, CCTV, jaringan internet, hingga perawatan cepat properti wisata.",
+    "neighborhoods": ["Kuta", "Mertak", "Gerupuk", "Sade"],
+    "keywords": ["tukang kuta mandalika", "jasa tukang kuta mandalika", "teknisi kuta mandalika"]
+  },
+  {
+    "slug": "ampenan",
+    "name": "Ampenan",
+    "type": "Kecamatan",
+    "featured": false,
+    "excerpt": "Jasa tukang untuk rumah lama, renovasi, dan bangunan usaha di Ampenan.",
+    "description": "Ampenan cocok untuk proyek renovasi, perbaikan, dan maintenance bangunan eksisting dengan fokus pengerjaan rapi dan tidak mengganggu aktivitas penghuni.",
+    "neighborhoods": ["Banjar", "Pejeruk", "Dayan Peken", "Kebon Sari"],
+    "keywords": ["tukang ampenan", "jasa tukang ampenan", "teknisi ampenan"]
+  },
+  {
+    "slug": "cakranegara",
+    "name": "Cakranegara",
+    "type": "Kecamatan",
+    "featured": false,
+    "excerpt": "Layanan tukang dan teknisi untuk rumah, ruko, toko, dan perkantoran di Cakranegara.",
+    "description": "Cakranegara kami layani untuk kebutuhan perbaikan cepat, instalasi baru, dan proyek support bangunan komersial maupun rumah tinggal.",
+    "neighborhoods": ["Sayang Sayang", "Mayura", "Sweta", "Monjok Timur"],
+    "keywords": ["tukang cakranegara", "jasa tukang cakranegara", "teknisi cakranegara"]
+  },
+  {
+    "slug": "gunungsari",
+    "name": "Gunungsari",
+    "type": "Kecamatan",
+    "featured": false,
+    "excerpt": "Dukungan tukang untuk hunian, villa, dan properti berkembang di Gunungsari.",
+    "description": "Gunungsari kami cover untuk berbagai pekerjaan tukang dan teknisi dengan penjadwalan yang fleksibel dan cocok untuk area hunian maupun wisata.",
+    "neighborhoods": ["Midang", "Rembiga", "Tamansari", "Jatisela"],
+    "keywords": ["tukang gunungsari", "jasa tukang gunungsari", "teknisi gunungsari"]
+  },
+  {
+    "slug": "narmada",
+    "name": "Narmada",
+    "type": "Kecamatan",
+    "featured": false,
+    "excerpt": "Jasa tukang untuk rumah tinggal, kebun villa, dan bangunan penunjang di Narmada.",
+    "description": "Area Narmada kami layani untuk pembangunan baru, perbaikan bangunan, plumbing, listrik, dan proyek custom lainnya.",
+    "neighborhoods": ["Suranadi", "Sembung", "Peresak", "Badrain"],
+    "keywords": ["tukang narmada", "jasa tukang narmada", "teknisi narmada"]
+  },
+  {
+    "slug": "batulayar",
+    "name": "Batulayar",
+    "type": "Kecamatan",
+    "featured": true,
+    "excerpt": "Spesialis kebutuhan tukang untuk villa, resort, dan hunian premium di Batulayar.",
+    "description": "Batulayar merupakan area strategis untuk layanan maintenance dan peningkatan properti hospitality, villa, serta rumah premium dengan standar pengerjaan rapi.",
+    "neighborhoods": ["Batu Bolong", "Montong", "Meninting", "Sandik"],
+    "keywords": ["tukang batulayar", "jasa tukang batulayar", "teknisi batulayar"]
+  }
+]

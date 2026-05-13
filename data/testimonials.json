@@ -1,0 +1,56 @@
+[
+  {
+    "id": "tm-001",
+    "name": "Bapak Andi Saputra",
+    "role": "Pemilik Rumah",
+    "location": "Mataram",
+    "rating": 5,
+    "quote": "Saya pakai TukangDiLombok untuk renovasi dapur dan hasilnya rapi. Komunikasi enak, progres jelas, dan timnya cepat respons di WhatsApp.",
+    "serviceSlug": "renovasi-rumah"
+  },
+  {
+    "id": "tm-002",
+    "name": "Ibu Rani Kusuma",
+    "role": "Owner Villa",
+    "location": "Senggigi",
+    "rating": 5,
+    "quote": "Pasang CCTV dan penataan WiFi villa selesai rapi. Sangat membantu karena tamu tetap nyaman dan monitoring jadi lebih mudah.",
+    "serviceSlug": "tukang-cctv"
+  },
+  {
+    "id": "tm-003",
+    "name": "Mr. Daniel W.",
+    "role": "Property Manager",
+    "location": "Kuta Mandalika",
+    "rating": 5,
+    "quote": "Timnya cocok untuk maintenance villa. Bisa handle beberapa item sekaligus dan hasil kerjanya profesional.",
+    "serviceSlug": "service-rumah-tangga"
+  },
+  {
+    "id": "tm-004",
+    "name": "Bapak M. Hidayat",
+    "role": "Pemilik Ruko",
+    "location": "Praya",
+    "rating": 5,
+    "quote": "Masalah listrik dan AC di ruko cepat teratasi. Enaknya satu tim bisa bantu koordinasi beberapa teknisi sekaligus.",
+    "serviceSlug": "tukang-listrik"
+  },
+  {
+    "id": "tm-005",
+    "name": "Ibu Sari Lestari",
+    "role": "Ibu Rumah Tangga",
+    "location": "Lombok Barat",
+    "rating": 5,
+    "quote": "Saya pesan tukang ledeng dan service rumah tangga. Tim datang sesuai jadwal, sopan, dan pengerjaan bersih.",
+    "serviceSlug": "tukang-ledeng"
+  },
+  {
+    "id": "tm-006",
+    "name": "Bapak Fajar Nugraha",
+    "role": "Developer Perumahan",
+    "location": "Gerung",
+    "rating": 5,
+    "quote": "Untuk kebutuhan tukang borongan dan tukang harian, platform ini sangat membantu. Fleksibel dan mudah koordinasi.",
+    "serviceSlug": "tukang-borongan"
+  }
+]

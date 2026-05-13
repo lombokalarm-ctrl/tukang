@@ -1,0 +1,11 @@
+.prose-content {
+  color: #334155;
+}
+
+.prose-content a {
+  text-underline-offset: 4px;
+}
+
+.prose-content img {
+  border-radius: 1.5rem;
+}
