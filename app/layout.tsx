@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { Footer } from "@/components/layout/footer";
 import { Header } from "@/components/layout/header";
 import { JsonLd } from "@/components/json-ld";
 import { StickyMobileCta } from "@/components/sections/sticky-mobile-cta";
 import { WhatsAppButton } from "@/components/sections/whatsapp-button";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, getSiteVerificationMetadata } from "@/lib/seo";
 import { localBusinessSchema, organizationSchema } from "@/lib/schema";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
@@ -20,10 +21,13 @@ export const metadata: Metadata = buildMetadata({
   keywords: Array.from(siteConfig.keywords),
 });
 
+metadata.verification = getSiteVerificationMetadata().verification;
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html className={`${geistSans.variable} ${geistMono.variable}`} lang="id">
       <body className="min-h-screen bg-slate-50 font-sans text-slate-900 antialiased">
+        <GoogleAnalytics />
         <JsonLd data={organizationSchema()} />
         <JsonLd data={localBusinessSchema()} />
         <div className="flex min-h-screen flex-col">

@@ -5,6 +5,26 @@ export function absoluteUrl(path = "/") {
   return new URL(path, siteConfig.url).toString();
 }
 
+export function getSiteVerificationMetadata(): Pick<Metadata, "verification"> {
+  const google = process.env.GOOGLE_SITE_VERIFICATION;
+  const bing = process.env.BING_SITE_VERIFICATION;
+
+  if (!google && !bing) {
+    return {};
+  }
+
+  return {
+    verification: {
+      google,
+      other: bing
+        ? {
+            "msvalidate.01": bing,
+          }
+        : undefined,
+    },
+  };
+}
+
 type MetadataInput = {
   title: string;
   description: string;

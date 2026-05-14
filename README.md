@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TukangDiLombok.com
 
-## Getting Started
+Website jasa tukang dan teknisi profesional di Lombok berbasis Next.js App Router, TypeScript, Tailwind CSS, MDX blog, dan programmatic SEO untuk kombinasi layanan + area.
 
-First, run the development server:
+## Local Development
+
+Jalankan development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Untuk build production:
 
-## Learn More
+```bash
+npm run build
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Environment Variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Salin `.env.example` menjadi `.env.local` untuk development atau isi variabel yang sama di server production:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+GOOGLE_SITE_VERIFICATION=
+BING_SITE_VERIFICATION=
+NEXT_PUBLIC_GA_MEASUREMENT_ID=
+```
 
-## Deploy on Vercel
+Keterangan:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `GOOGLE_SITE_VERIFICATION`: token dari Google Search Console
+- `BING_SITE_VERIFICATION`: token dari Bing Webmaster Tools
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID`: Measurement ID Google Analytics 4, contoh `G-XXXXXXXXXX`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Search Console dan Bing
+
+### Google Search Console
+
+1. Tambahkan property domain atau URL prefix untuk `https://tukangdilombok.com`
+2. Ambil token verifikasi HTML tag
+3. Isi ke `GOOGLE_SITE_VERIFICATION`
+4. Deploy ulang website
+5. Buka Search Console dan submit sitemap:
+
+```text
+https://tukangdilombok.com/sitemap.xml
+```
+
+### Bing Webmaster Tools
+
+1. Tambahkan site `https://tukangdilombok.com`
+2. Ambil token verifikasi meta tag `msvalidate.01`
+3. Isi ke `BING_SITE_VERIFICATION`
+4. Deploy ulang website
+5. Submit sitemap:
+
+```text
+https://tukangdilombok.com/sitemap.xml
+```
+
+## Google Analytics 4
+
+Jika ingin mengaktifkan GA4:
+
+1. Buat property dan web data stream di Google Analytics
+2. Ambil Measurement ID
+3. Isi ke `NEXT_PUBLIC_GA_MEASUREMENT_ID`
+4. Deploy ulang website
+
+Analytics hanya aktif jika variabel tersebut diisi.
+
+## Live URLs
+
+- Domain: [https://tukangdilombok.com](https://tukangdilombok.com)
+- Robots: [https://tukangdilombok.com/robots.txt](https://tukangdilombok.com/robots.txt)
+- Sitemap: [https://tukangdilombok.com/sitemap.xml](https://tukangdilombok.com/sitemap.xml)
