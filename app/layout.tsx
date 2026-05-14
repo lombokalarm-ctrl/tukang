@@ -19,9 +19,8 @@ export const metadata: Metadata = buildMetadata({
   description: siteConfig.description,
   path: "/",
   keywords: Array.from(siteConfig.keywords),
+  ...getSiteVerificationMetadata(),
 });
-
-metadata.verification = getSiteVerificationMetadata().verification;
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
