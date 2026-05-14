@@ -30,7 +30,9 @@ export function localBusinessSchema() {
     image: absoluteUrl(siteConfig.ogImage),
     url: siteConfig.url,
     telephone: siteConfig.phone,
+    email: siteConfig.email,
     priceRange: "RpRp",
+    openingHours: siteConfig.operatingHours,
     address: {
       "@type": "PostalAddress",
       streetAddress: siteConfig.address,

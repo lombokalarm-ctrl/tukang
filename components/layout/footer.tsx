@@ -55,7 +55,7 @@ export function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-6 text-sm text-slate-400 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
           <p>{siteConfig.address}</p>
-          <p>© 2026 {siteConfig.name}. Siap deploy di Vercel dan scalable untuk ribuan halaman SEO.</p>
+          <p>© 2026 {siteConfig.name}. Melayani kebutuhan tukang dan teknisi profesional untuk seluruh Pulau Lombok.</p>
         </div>
       </div>
     </footer>

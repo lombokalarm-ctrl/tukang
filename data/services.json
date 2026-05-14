@@ -11,7 +11,70 @@
     "description": "Tim tukang bangunan profesional untuk pekerjaan pondasi, pasangan bata, plester aci, dak, finishing, dan perbaikan struktur ringan dengan pengerjaan rapi dan terjadwal.",
     "benefits": ["Tukang berpengalaman", "Pekerjaan rapi", "Bisa harian atau borongan", "Estimasi kerja jelas"],
     "useCases": ["Bangun rumah baru", "Renovasi bangunan", "Perbaikan dinding", "Pekerjaan finishing"],
-    "keywords": ["tukang bangunan lombok", "jasa tukang bangunan lombok", "tukang bangunan mataram"]
+    "keywords": ["tukang bangunan lombok", "jasa tukang bangunan lombok", "tukang bangunan mataram"],
+    "heroTitle": "Tukang Bangunan Profesional di Lombok",
+    "heroIntro": "TukangDiLombok menyediakan layanan tukang bangunan profesional untuk pembangunan, renovasi, dan perbaikan rumah, villa, hotel, ruko, kantor, dan berbagai properti di Lombok. Layanan ini cocok untuk proyek kecil maupun besar dengan tenaga berpengalaman, pengerjaan rapi, dan sistem kerja fleksibel.",
+    "problems": [
+      "Atap bocor dan kerusakan bagian atas bangunan",
+      "Retak dinding dan kerusakan struktur ringan",
+      "Renovasi rumah lama agar lebih nyaman dan modern",
+      "Penambahan ruangan, dapur, kamar mandi, atau lantai rumah",
+      "Finishing bangunan yang kurang rapi dan perlu diperbaiki"
+    ],
+    "workItems": [
+      "Bangun rumah baru",
+      "Renovasi rumah dan bangunan",
+      "Pemasangan keramik dan granit",
+      "Plester, aci, dan pengecatan",
+      "Pembuatan pagar, kanopi, dan dak beton"
+    ],
+    "idealFor": [
+      "Pemilik rumah",
+      "Owner villa",
+      "Hotel",
+      "Kontraktor",
+      "Developer",
+      "Pemilik kos",
+      "Ruko",
+      "Properti komersial"
+    ],
+    "areaCoverage": "TukangDiLombok melayani kebutuhan tukang bangunan di Mataram, Lombok Barat, Senggigi, Praya, Kuta Lombok, dan area sekitarnya. Kami siap membantu pekerjaan bangunan di kawasan rumah tinggal, area wisata, properti hospitality, hingga bangunan usaha.",
+    "whyChoose": [
+      "Komunikasi lebih cepat dan mudah melalui WhatsApp",
+      "Pengerjaan rapi dengan tenaga yang berpengalaman",
+      "Bisa menangani rumah tinggal hingga properti komersial",
+      "Sistem kerja fleksibel sesuai skala pekerjaan",
+      "Siap membantu dari tahap konsultasi hingga pelaksanaan"
+    ],
+    "systemAndPricing": [
+      "Melayani sistem kerja harian, mingguan, maupun borongan sesuai jenis proyek dan kebutuhan pelanggan.",
+      "Estimasi biaya menyesuaikan lingkup pekerjaan, tingkat kesulitan, material yang digunakan, serta lokasi pengerjaan.",
+      "Untuk pekerjaan renovasi atau pembangunan yang membutuhkan perhitungan detail, survey awal sangat disarankan agar estimasi biaya dan waktu pengerjaan lebih akurat."
+    ],
+    "caseStudies": [
+      "Renovasi rumah modern 2 lantai di Kota Mataram untuk pembaruan tampilan fasad, perbaikan beberapa bagian interior, dan peningkatan kenyamanan ruang keluarga.",
+      "Pembangunan pagar dan kanopi villa di Senggigi untuk meningkatkan keamanan, estetika, dan fungsi area depan properti.",
+      "Renovasi kamar mandi dan dapur rumah di Praya untuk memperbarui area yang sudah lama dan meningkatkan kenyamanan pemakaian sehari-hari."
+    ],
+    "faq": [
+      {
+        "question": "Apakah menerima pengerjaan skala kecil dan besar?",
+        "answer": "Ya, kami melayani pekerjaan bangunan skala kecil seperti perbaikan dan renovasi bagian tertentu, hingga proyek pembangunan dan renovasi skala lebih besar."
+      },
+      {
+        "question": "Apakah bisa survey lokasi terlebih dahulu?",
+        "answer": "Bisa. Survey lokasi membantu kami memahami kebutuhan proyek dan memberikan saran pengerjaan yang lebih tepat."
+      },
+      {
+        "question": "Apakah menerima sistem harian dan borongan?",
+        "answer": "Ya, kami melayani sistem harian, mingguan, maupun borongan sesuai kebutuhan proyek."
+      },
+      {
+        "question": "Berapa lama estimasi pengerjaan renovasi rumah?",
+        "answer": "Durasi pengerjaan tergantung skala pekerjaan, kondisi bangunan, serta detail yang ingin dikerjakan. Setelah konsultasi atau survey, kami dapat memberikan estimasi waktu yang lebih jelas."
+      }
+    ],
+    "primaryCta": "Butuh tukang bangunan di Lombok untuk renovasi, pembangunan, atau perbaikan rumah? Hubungi TukangDiLombok sekarang untuk konsultasi cepat dan penjadwalan survey."
   },
   {
     "slug": "renovasi-rumah",
@@ -25,7 +88,71 @@
     "description": "Layanan renovasi rumah dari bongkar pasang, perluasan ruang, upgrade fasad, peremajaan kamar mandi, hingga penataan ulang interior agar hunian lebih nyaman dan bernilai tinggi.",
     "benefits": ["Survey dan konsultasi", "Rencana kerja bertahap", "Bisa renovasi sebagian", "Cocok untuk properti investasi"],
     "useCases": ["Renovasi dapur", "Renovasi kamar mandi", "Perluasan bangunan", "Upgrade tampilan rumah"],
-    "keywords": ["jasa renovasi rumah lombok", "renovasi rumah mataram", "kontraktor renovasi lombok"]
+    "keywords": ["jasa renovasi rumah lombok", "renovasi rumah mataram", "kontraktor renovasi lombok"],
+    "heroTitle": "Jasa Renovasi Rumah Profesional di Lombok",
+    "heroIntro": "TukangDiLombok menyediakan jasa renovasi rumah di Lombok untuk membantu Anda memperbaiki, memperbarui, dan meningkatkan fungsi bangunan agar lebih nyaman, rapi, dan sesuai kebutuhan. Layanan ini cocok untuk renovasi ringan hingga renovasi rumah menyeluruh, baik untuk rumah tinggal, villa, homestay, kos, ruko, maupun properti komersial.",
+    "problems": [
+      "Rumah bocor dan rembes saat musim hujan",
+      "Dinding retak atau bagian bangunan mulai rusak",
+      "Rumah lama ingin diperbarui agar lebih modern",
+      "Dapur, kamar mandi, atau ruang keluarga perlu ditata ulang",
+      "Penambahan ruang karena kebutuhan keluarga atau usaha",
+      "Finishing rumah kurang rapi dan perlu diperbaiki"
+    ],
+    "workItems": [
+      "Renovasi rumah sebagian atau menyeluruh",
+      "Renovasi dapur dan kamar mandi",
+      "Perbaikan atap, plafon, dan dinding",
+      "Penggantian keramik, granit, dan finishing lantai",
+      "Perbaikan fasad dan tampilan depan rumah",
+      "Penambahan ruangan atau area fungsional",
+      "Renovasi rumah untuk villa, kos, homestay, atau properti sewa"
+    ],
+    "idealFor": [
+      "Pemilik rumah",
+      "Owner villa",
+      "Pengelola homestay",
+      "Pemilik kos",
+      "Investor properti",
+      "Developer kecil"
+    ],
+    "areaCoverage": "TukangDiLombok melayani jasa renovasi rumah di Mataram, Lombok Barat, Senggigi, Praya, Kuta Lombok, dan berbagai area lainnya di Pulau Lombok. Kami siap membantu kebutuhan renovasi rumah tinggal, villa, rumah sewa, homestay, dan properti usaha dengan koordinasi yang lebih cepat dan jelas.",
+    "whyChoose": [
+      "Konsultasi mudah dan respons cepat melalui WhatsApp",
+      "Bisa menangani renovasi rumah kecil hingga menengah",
+      "Tenaga tukang berpengalaman untuk berbagai kebutuhan bangunan",
+      "Pengerjaan rapi dan komunikatif selama proyek berjalan",
+      "Fleksibel untuk sistem harian, borongan, atau bertahap sesuai kebutuhan"
+    ],
+    "systemAndPricing": [
+      "Melayani renovasi rumah dengan sistem yang menyesuaikan kebutuhan proyek, mulai dari pekerjaan harian, borongan, hingga renovasi bertahap.",
+      "Estimasi biaya dipengaruhi oleh bagian rumah yang direnovasi, kondisi bangunan, material yang dipilih, tingkat kesulitan pekerjaan, dan lokasi proyek.",
+      "Survey lokasi sangat disarankan agar kami dapat memahami kebutuhan Anda secara detail dan memberikan gambaran pengerjaan yang lebih akurat."
+    ],
+    "caseStudies": [
+      "Renovasi rumah modern di Kota Mataram untuk memperbarui tampilan fasad, memperbaiki beberapa area interior, dan meningkatkan kenyamanan ruang utama.",
+      "Renovasi kamar mandi dan dapur rumah di Praya untuk memperbaiki fungsi ruang, alur pemakaian, dan kualitas finishing.",
+      "Perbaikan plafon, cat, dan penataan ulang beberapa bagian rumah di Lombok Barat untuk menyegarkan tampilan bangunan lama."
+    ],
+    "faq": [
+      {
+        "question": "Apakah TukangDiLombok menerima renovasi rumah skala kecil?",
+        "answer": "Ya, kami melayani renovasi skala kecil seperti perbaikan bagian tertentu, pembaruan kamar mandi, dapur, plafon, cat, maupun renovasi area rumah lainnya sesuai kebutuhan."
+      },
+      {
+        "question": "Apakah bisa survey sebelum pekerjaan dimulai?",
+        "answer": "Bisa. Survey sangat membantu untuk melihat kondisi bangunan, memahami kebutuhan renovasi, dan menentukan rencana kerja yang lebih tepat."
+      },
+      {
+        "question": "Apakah renovasi bisa dikerjakan bertahap?",
+        "answer": "Ya, untuk kondisi tertentu renovasi dapat dikerjakan bertahap sesuai prioritas ruang, budget, dan target waktu pelanggan."
+      },
+      {
+        "question": "Berapa estimasi biaya renovasi rumah di Lombok?",
+        "answer": "Biaya renovasi tergantung pada luas area, jenis pekerjaan, kondisi bangunan lama, material yang digunakan, dan tingkat kesulitan pengerjaan. Konsultasi awal bisa dilakukan melalui WhatsApp."
+      }
+    ],
+    "primaryCta": "Ingin renovasi rumah di Lombok agar lebih rapi, modern, dan nyaman? Hubungi TukangDiLombok sekarang untuk konsultasi cepat dan penjadwalan survey melalui WhatsApp."
   },
   {
     "slug": "tukang-ac",
@@ -39,7 +166,72 @@
     "description": "Teknisi AC untuk pemasangan unit baru, relokasi AC, service ringan hingga perbaikan komponen agar performa dingin kembali optimal dan listrik tetap efisien.",
     "benefits": ["Respons cepat", "Pengecekan menyeluruh", "Rapi saat instalasi", "Cocok untuk rumah dan hotel"],
     "useCases": ["AC tidak dingin", "Pasang AC baru", "Cuci AC berkala", "Pindah posisi indoor outdoor"],
-    "keywords": ["tukang ac lombok", "service ac lombok", "jasa pasang ac mataram"]
+    "keywords": ["tukang ac lombok", "service ac lombok", "jasa pasang ac mataram"],
+    "heroTitle": "Jasa Tukang AC Profesional di Lombok",
+    "heroIntro": "TukangDiLombok menyediakan jasa tukang AC di Lombok untuk kebutuhan instalasi AC baru, bongkar pasang, service AC, cuci AC, perbaikan AC tidak dingin, hingga pengecekan masalah kelistrikan ringan yang berkaitan dengan unit AC. Layanan ini cocok untuk rumah tinggal, villa, hotel, homestay, kantor, ruko, cafe, dan berbagai properti lainnya di Lombok.",
+    "problems": [
+      "AC tidak dingin atau kurang maksimal",
+      "AC bocor dan menetes ke dalam ruangan",
+      "AC kotor dan perlu cuci rutin",
+      "AC berisik atau mengeluarkan bau tidak sedap",
+      "Unit AC perlu dibongkar pasang saat renovasi atau pindah ruangan",
+      "Instalasi AC baru untuk rumah, villa, atau tempat usaha"
+    ],
+    "workItems": [
+      "Instalasi AC baru",
+      "Bongkar pasang AC",
+      "Cuci AC rutin",
+      "Service AC tidak dingin",
+      "Perbaikan AC bocor",
+      "Pengecekan unit AC bermasalah",
+      "Perawatan AC untuk rumah, villa, hotel, dan kantor"
+    ],
+    "idealFor": [
+      "Pemilik rumah",
+      "Owner villa",
+      "Pengelola homestay",
+      "Hotel",
+      "Kantor",
+      "Cafe",
+      "Ruko"
+    ],
+    "areaCoverage": "TukangDiLombok melayani jasa tukang AC di Mataram, Senggigi, Praya, Lombok Barat, Kuta Lombok, dan area lainnya di Pulau Lombok. Layanan ini sangat cocok untuk rumah tinggal, villa, homestay, hotel, kantor, dan ruang usaha yang membutuhkan pendingin ruangan yang tetap berfungsi dengan baik.",
+    "whyChoose": [
+      "Respons cepat untuk konsultasi dan penjadwalan melalui WhatsApp",
+      "Cocok untuk rumah tinggal maupun properti hospitality",
+      "Pengerjaan rapi dan lebih mudah dikoordinasikan",
+      "Bisa untuk instalasi baru, service, maupun perawatan berkala",
+      "Fleksibel untuk kebutuhan rumah tangga dan properti komersial"
+    ],
+    "systemAndPricing": [
+      "Melayani kebutuhan service, instalasi, bongkar pasang, dan pengecekan AC sesuai kondisi unit dan kebutuhan pelanggan.",
+      "Estimasi biaya menyesuaikan jenis pekerjaan, jumlah unit, kondisi AC, lokasi pengerjaan, dan kebutuhan tambahan di lapangan.",
+      "Untuk properti dengan beberapa unit AC seperti villa, hotel, homestay, kantor, atau rumah besar, penjadwalan dan pengecekan awal akan membantu menentukan pengerjaan yang paling efisien."
+    ],
+    "caseStudies": [
+      "Instalasi beberapa unit AC pada villa di Senggigi untuk menunjang kenyamanan tamu dan menjaga suhu ruangan tetap stabil.",
+      "Cuci AC dan pengecekan performa unit di hotel area Kuta Lombok sebagai bagian dari perawatan berkala.",
+      "Service AC rumah di Mataram yang kurang dingin dan mengalami kebocoran agar kembali nyaman digunakan sehari-hari."
+    ],
+    "faq": [
+      {
+        "question": "Apakah TukangDiLombok menerima service AC rumah dan villa?",
+        "answer": "Ya, kami melayani service AC untuk rumah tinggal, villa, homestay, hotel, kantor, dan properti lainnya di Lombok."
+      },
+      {
+        "question": "Apakah bisa untuk cuci AC rutin?",
+        "answer": "Bisa. Kami melayani cuci AC rutin untuk menjaga performa unit tetap optimal dan ruangan tetap nyaman."
+      },
+      {
+        "question": "Apakah menerima bongkar pasang AC?",
+        "answer": "Ya, kami melayani bongkar pasang AC untuk kebutuhan renovasi, pindah unit, atau penataan ulang ruangan."
+      },
+      {
+        "question": "Berapa estimasi biaya service AC di Lombok?",
+        "answer": "Estimasi biaya menyesuaikan jenis pekerjaan, kondisi unit, jumlah AC, dan lokasi pengerjaan. Konsultasi awal dapat dilakukan melalui WhatsApp."
+      }
+    ],
+    "primaryCta": "Butuh jasa tukang AC di Lombok untuk instalasi, service, cuci AC, atau bongkar pasang? Hubungi TukangDiLombok sekarang untuk konsultasi cepat dan penjadwalan melalui WhatsApp."
   },
   {
     "slug": "tukang-listrik",
@@ -53,7 +245,73 @@
     "description": "Layanan teknisi listrik untuk rumah, villa, hotel, kantor, dan toko dengan standar kerja aman, rapi, dan siap membantu kebutuhan perbaikan maupun instalasi baru.",
     "benefits": ["Prioritas keamanan", "Troubleshooting cepat", "Bisa pekerjaan kecil sampai besar", "Dokumentasi pekerjaan"],
     "useCases": ["Korsleting", "Tambah stop kontak", "Instalasi lampu", "Upgrade panel listrik"],
-    "keywords": ["tukang listrik lombok", "jasa listrik lombok", "tukang listrik mataram"]
+    "keywords": ["tukang listrik lombok", "jasa listrik lombok", "tukang listrik mataram"],
+    "heroTitle": "Jasa Tukang Listrik Profesional di Lombok",
+    "heroIntro": "TukangDiLombok menyediakan jasa tukang listrik di Lombok untuk kebutuhan instalasi listrik baru, perbaikan listrik bermasalah, penambahan titik listrik, pengecekan panel, pemasangan lampu, stop kontak, MCB, hingga penataan ulang instalasi listrik rumah dan properti komersial.",
+    "problems": [
+      "Listrik sering jeglek atau turun",
+      "Stop kontak atau saklar rusak",
+      "Instalasi listrik lama dan tidak rapi",
+      "Penambahan titik lampu atau stop kontak",
+      "Pemasangan lampu, MCB, dan komponen listrik",
+      "Penataan ulang instalasi listrik saat renovasi bangunan"
+    ],
+    "workItems": [
+      "Instalasi listrik baru",
+      "Perbaikan listrik rumah dan bangunan",
+      "Penambahan titik listrik",
+      "Pemasangan lampu, saklar, dan stop kontak",
+      "Pengecekan dan perapian instalasi listrik",
+      "Penggantian MCB dan komponen listrik tertentu",
+      "Penyesuaian instalasi listrik saat renovasi rumah atau bangunan"
+    ],
+    "idealFor": [
+      "Pemilik rumah",
+      "Owner villa",
+      "Hotel",
+      "Pengelola homestay",
+      "Kantor",
+      "Ruko",
+      "Cafe",
+      "Kos"
+    ],
+    "areaCoverage": "TukangDiLombok melayani jasa tukang listrik di Mataram, Lombok Barat, Praya, Senggigi, Kuta Lombok, dan area lainnya di Pulau Lombok. Kami siap membantu kebutuhan listrik untuk rumah, villa, kantor, ruko, hotel, dan berbagai jenis properti lainnya.",
+    "whyChoose": [
+      "Respons cepat untuk konsultasi dan penjadwalan via WhatsApp",
+      "Penanganan rapi dan lebih mudah dikoordinasikan",
+      "Cocok untuk rumah tinggal maupun properti komersial",
+      "Bisa untuk perbaikan ringan, penambahan titik, maupun instalasi baru",
+      "Mendukung kebutuhan listrik saat renovasi, pembaruan, atau penataan ulang bangunan"
+    ],
+    "systemAndPricing": [
+      "Melayani kebutuhan instalasi baru, perbaikan, penambahan titik, dan pengecekan listrik sesuai kondisi bangunan dan kebutuhan pelanggan.",
+      "Estimasi biaya dipengaruhi oleh jenis pekerjaan, jumlah titik, kondisi instalasi lama, material yang digunakan, serta lokasi pengerjaan.",
+      "Untuk pekerjaan listrik yang lebih detail, survey dan pengecekan awal sangat disarankan agar kebutuhan penanganan lebih tepat dan hasil kerja lebih aman."
+    ],
+    "caseStudies": [
+      "Penambahan titik lampu dan stop kontak pada rumah di Mataram untuk menyesuaikan kebutuhan ruang keluarga dan dapur.",
+      "Perapian instalasi listrik ruko di Ampenan agar lebih aman dan mendukung operasional usaha.",
+      "Pengecekan serta penggantian beberapa komponen listrik pada villa di Senggigi untuk menjaga kenyamanan penghuni."
+    ],
+    "faq": [
+      {
+        "question": "Apakah TukangDiLombok melayani perbaikan listrik rumah?",
+        "answer": "Ya, kami melayani perbaikan listrik rumah, penambahan titik, pemasangan komponen listrik, dan penataan instalasi sesuai kebutuhan bangunan."
+      },
+      {
+        "question": "Apakah bisa menambah titik lampu atau stop kontak?",
+        "answer": "Bisa. Kami melayani penambahan titik listrik untuk rumah, ruko, kantor, dan berbagai properti lainnya di Lombok."
+      },
+      {
+        "question": "Apakah menerima pengecekan instalasi listrik lama?",
+        "answer": "Ya, kami bisa membantu pengecekan awal untuk melihat kondisi instalasi dan kebutuhan perbaikan atau penyesuaian."
+      },
+      {
+        "question": "Berapa estimasi biaya jasa tukang listrik di Lombok?",
+        "answer": "Estimasi biaya menyesuaikan jenis pekerjaan, jumlah titik, kondisi instalasi, material, dan lokasi pengerjaan. Konsultasi awal dapat dilakukan melalui WhatsApp."
+      }
+    ],
+    "primaryCta": "Butuh jasa tukang listrik di Lombok untuk instalasi baru, perbaikan, atau penambahan titik listrik? Hubungi TukangDiLombok sekarang untuk konsultasi cepat dan penjadwalan melalui WhatsApp."
   },
   {
     "slug": "tukang-cctv",
@@ -67,7 +325,72 @@
     "description": "Jasa instalasi dan maintenance CCTV dengan penempatan kamera strategis, penarikan kabel rapi, setup perekaman, dan akses pantau dari smartphone.",
     "benefits": ["Posisi kamera optimal", "Tampilan kabel rapi", "Bisa pantau via HP", "Cocok untuk properti sewa"],
     "useCases": ["Rumah tinggal", "Villa dan hotel", "Gudang", "Kantor dan toko"],
-    "keywords": ["tukang cctv lombok", "jasa pasang cctv lombok", "cctv mataram"]
+    "keywords": ["tukang cctv lombok", "jasa pasang cctv lombok", "cctv mataram"],
+    "heroTitle": "Jasa Tukang CCTV Profesional di Lombok",
+    "heroIntro": "TukangDiLombok menyediakan jasa tukang CCTV di Lombok untuk kebutuhan pemasangan CCTV baru, penambahan titik kamera, perapian instalasi, pengecekan sistem, penggantian perangkat tertentu, hingga perawatan sistem pengawasan untuk rumah, villa, hotel, kantor, ruko, gudang, dan berbagai properti lainnya.",
+    "problems": [
+      "Ingin pasang CCTV baru untuk rumah atau tempat usaha",
+      "Butuh penambahan titik kamera di area tertentu",
+      "Posisi kamera lama kurang efektif",
+      "Instalasi kabel dan perangkat CCTV terlihat kurang rapi",
+      "Membutuhkan sistem keamanan tambahan untuk properti yang aktif dipakai"
+    ],
+    "workItems": [
+      "Pemasangan CCTV baru",
+      "Penambahan titik kamera",
+      "Perapian instalasi CCTV",
+      "Penyesuaian posisi kamera",
+      "Pengecekan sistem CCTV bermasalah",
+      "Penggantian perangkat tertentu bila diperlukan",
+      "Pemasangan CCTV untuk rumah, villa, hotel, ruko, kantor, dan gudang"
+    ],
+    "idealFor": [
+      "Pemilik rumah",
+      "Owner villa",
+      "Hotel",
+      "Homestay",
+      "Kantor",
+      "Toko",
+      "Ruko",
+      "Gudang"
+    ],
+    "areaCoverage": "TukangDiLombok melayani jasa tukang CCTV di Mataram, Lombok Barat, Senggigi, Praya, Kuta Lombok, dan berbagai area lain di Pulau Lombok. Layanan ini cocok untuk rumah tinggal, villa, hotel, kantor, ruko, gudang, dan bangunan usaha yang membutuhkan sistem keamanan yang lebih baik.",
+    "whyChoose": [
+      "Konsultasi cepat dan mudah melalui WhatsApp",
+      "Instalasi lebih rapi dan mudah dikoordinasikan",
+      "Cocok untuk rumah tinggal maupun properti komersial",
+      "Bisa menyesuaikan kebutuhan jumlah titik dan area pengawasan",
+      "Siap membantu pemasangan baru maupun penyesuaian sistem yang sudah ada"
+    ],
+    "systemAndPricing": [
+      "Melayani kebutuhan pemasangan baru, penambahan titik, pengecekan, dan penyesuaian sistem CCTV sesuai kondisi bangunan dan kebutuhan pelanggan.",
+      "Estimasi biaya dipengaruhi oleh jumlah titik kamera, jenis area yang dipantau, panjang jalur instalasi, kebutuhan perangkat, serta lokasi pengerjaan.",
+      "Untuk rumah besar, villa, hotel, gudang, atau tempat usaha dengan beberapa area pengawasan, konsultasi awal dan pengecekan lokasi akan membantu menentukan sistem yang paling sesuai."
+    ],
+    "caseStudies": [
+      "Pemasangan CCTV rumah di Mataram untuk memantau area gerbang, carport, dan teras depan.",
+      "Penambahan beberapa titik kamera pada villa di Senggigi untuk mendukung keamanan area luar dan akses masuk properti.",
+      "Instalasi CCTV ruko di Ampenan untuk membantu pengawasan area kasir, pintu masuk, dan ruang penyimpanan."
+    ],
+    "faq": [
+      {
+        "question": "Apakah TukangDiLombok melayani pemasangan CCTV rumah?",
+        "answer": "Ya, kami melayani pemasangan CCTV untuk rumah tinggal, villa, homestay, hotel, toko, kantor, dan berbagai properti lain di Lombok."
+      },
+      {
+        "question": "Apakah bisa menambah titik kamera pada sistem yang sudah ada?",
+        "answer": "Bisa. Kami dapat membantu penambahan titik kamera dan penyesuaian sistem sesuai kebutuhan area pengawasan."
+      },
+      {
+        "question": "Apakah menerima pemasangan CCTV untuk usaha atau ruko?",
+        "answer": "Ya, kami melayani pemasangan CCTV untuk ruko, toko, kantor, gudang, cafe, dan berbagai bangunan usaha lainnya."
+      },
+      {
+        "question": "Berapa estimasi biaya pemasangan CCTV di Lombok?",
+        "answer": "Estimasi biaya menyesuaikan jumlah titik, jenis perangkat, kebutuhan instalasi, dan lokasi pengerjaan. Konsultasi awal bisa dilakukan melalui WhatsApp."
+      }
+    ],
+    "primaryCta": "Butuh jasa tukang CCTV di Lombok untuk rumah, villa, toko, kantor, atau properti usaha? Hubungi TukangDiLombok sekarang untuk konsultasi cepat dan penjadwalan melalui WhatsApp."
   },
   {
     "slug": "tukang-ledeng",

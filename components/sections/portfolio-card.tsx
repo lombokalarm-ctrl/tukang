@@ -10,11 +10,22 @@ export function PortfolioCard({ item }: { item: PortfolioItem }) {
       <div className="p-6">
         <h3 className="text-xl font-bold text-slate-900">{item.title}</h3>
         <p className="mt-3 text-sm leading-7 text-slate-600">{item.summary}</p>
+        {item.propertyType ? (
+          <div className="mt-4 inline-flex rounded-full bg-orange-50 px-3 py-1 text-xs font-semibold text-orange-700">
+            {item.propertyType}
+          </div>
+        ) : null}
         <div className="mt-5 grid gap-4 rounded-3xl bg-slate-50 p-4 text-sm">
           <div>
             <div className="font-semibold text-slate-900">Before</div>
             <p className="mt-1 leading-7 text-slate-600">{item.before}</p>
           </div>
+          {item.workDone ? (
+            <div>
+              <div className="font-semibold text-slate-900">Pekerjaan</div>
+              <p className="mt-1 leading-7 text-slate-600">{item.workDone}</p>
+            </div>
+          ) : null}
           <div>
             <div className="font-semibold text-slate-900">After</div>
             <p className="mt-1 leading-7 text-slate-600">{item.after}</p>

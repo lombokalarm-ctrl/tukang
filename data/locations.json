@@ -6,8 +6,57 @@
     "featured": true,
     "excerpt": "Layanan cepat untuk area Mataram, pusat kota, perumahan, ruko, dan area bisnis.",
     "description": "Area layanan prioritas untuk Mataram dan sekitarnya dengan akses teknisi yang cepat dan cocok untuk rumah tinggal, toko, kantor, hingga hotel kecil.",
-    "neighborhoods": ["Pagesangan", "Selaparang", "Karang Pule", "Monjok"],
-    "keywords": ["tukang mataram", "jasa tukang mataram", "teknisi mataram"]
+    "neighborhoods": ["Ampenan", "Cakranegara", "Selaparang", "Pagesangan", "Sandubaya"],
+    "keywords": ["tukang mataram", "jasa tukang mataram", "teknisi mataram"],
+    "heroTitle": "Jasa Tukang Profesional di Mataram",
+    "heroIntro": "Mataram merupakan pusat kota di Lombok dengan kebutuhan renovasi, pembangunan, dan layanan teknisi yang sangat tinggi. TukangDiLombok hadir untuk membantu berbagai kebutuhan rumah tinggal, perumahan, ruko, hotel, kantor, kos-kosan, cafe, dan properti komersial di wilayah Mataram dengan respons cepat dan tenaga profesional.",
+    "propertyTypes": ["Rumah tinggal", "Perumahan", "Ruko", "Hotel", "Kos-kosan", "Kantor", "Cafe", "Properti komersial"],
+    "popularServices": [
+      "Renovasi rumah dan bangunan",
+      "Service dan instalasi AC",
+      "Instalasi dan perbaikan listrik",
+      "Pemasangan CCTV",
+      "Tukang bangunan harian dan borongan"
+    ],
+    "commonProblems": [
+      "Atap bocor dan rembes saat musim hujan",
+      "Instalasi listrik lama dan tidak rapi",
+      "AC kurang dingin atau mengalami kebocoran",
+      "Retak dinding dan kerusakan bangunan",
+      "Kebutuhan renovasi rumah agar lebih modern dan fungsional"
+    ],
+    "nearbyAreas": ["Ampenan", "Cakranegara", "Selaparang", "Pagesangan", "Sandubaya"],
+    "idealForText": "Layanan TukangDiLombok di Mataram cocok untuk pemilik rumah, pemilik kos, pemilik ruko, pengelola properti, kantor, usaha, hingga owner villa atau penginapan yang membutuhkan tukang dan teknisi dengan respons cepat serta pengerjaan profesional.",
+    "sampleProjects": [
+      "Renovasi rumah minimalis di Cakranegara untuk pembaruan ruang utama dan penyegaran tampilan bangunan.",
+      "Instalasi CCTV dan listrik ruko di Ampenan untuk menunjang keamanan dan operasional usaha.",
+      "Pemasangan AC dan plafon rumah di Selaparang untuk meningkatkan kenyamanan hunian."
+    ],
+    "whyChoose": [
+      "Respons cepat untuk konsultasi awal melalui WhatsApp",
+      "Cocok untuk kebutuhan rumah dan bangunan usaha",
+      "Mudah koordinasi untuk survey dan penjadwalan",
+      "Bisa menangani renovasi, bangunan, AC, listrik, dan CCTV sekaligus"
+    ],
+    "faq": [
+      {
+        "question": "Apakah TukangDiLombok melayani seluruh wilayah Kota Mataram?",
+        "answer": "Ya, kami melayani berbagai area di Mataram termasuk Ampenan, Cakranegara, Selaparang, Pagesangan, Sandubaya, dan sekitarnya."
+      },
+      {
+        "question": "Apakah bisa survey lokasi sebelum pengerjaan?",
+        "answer": "Bisa. Survey membantu kami memahami kondisi lapangan dan menyesuaikan kebutuhan pekerjaan dengan lebih tepat."
+      },
+      {
+        "question": "Apakah menerima renovasi rumah skala kecil?",
+        "answer": "Ya, kami melayani renovasi skala kecil maupun pekerjaan yang lebih besar sesuai kebutuhan pelanggan."
+      },
+      {
+        "question": "Bagaimana cara memesan layanan TukangDiLombok?",
+        "answer": "Anda cukup menghubungi kami melalui WhatsApp, menjelaskan kebutuhan pekerjaan, lalu tim kami akan membantu proses konsultasi, survey bila diperlukan, dan penjadwalan pengerjaan."
+      }
+    ],
+    "primaryCta": "Butuh jasa tukang di Mataram untuk renovasi, perbaikan, AC, listrik, CCTV, atau kebutuhan properti lainnya? Hubungi TukangDiLombok sekarang untuk konsultasi cepat via WhatsApp."
   },
   {
     "slug": "lombok-barat",
@@ -16,8 +65,58 @@
     "featured": true,
     "excerpt": "Cocok untuk villa, rumah, dan bisnis di Lombok Barat dengan penjadwalan fleksibel.",
     "description": "Tim kami melayani berbagai kebutuhan tukang dan teknisi di Lombok Barat mulai dari perumahan, villa, homestay, restoran, hingga fasilitas komersial.",
-    "neighborhoods": ["Lembar", "Kediri", "Labuapi", "Sekotong"],
-    "keywords": ["tukang lombok barat", "jasa tukang lombok barat", "teknisi lombok barat"]
+    "neighborhoods": ["Gerung", "Gunungsari", "Batulayar", "Narmada", "Lembar"],
+    "keywords": ["tukang lombok barat", "jasa tukang lombok barat", "teknisi lombok barat"],
+    "heroTitle": "Jasa Tukang Profesional di Lombok Barat",
+    "heroIntro": "TukangDiLombok melayani jasa tukang dan teknisi profesional di Lombok Barat untuk kebutuhan rumah, villa, homestay, hotel, ruko, kantor, dan berbagai properti lainnya. Kami membantu pelanggan yang membutuhkan layanan tukang bangunan, renovasi rumah, listrik, AC, CCTV, dan pekerjaan teknis lain dengan respons cepat, komunikasi jelas, dan pengerjaan rapi.",
+    "propertyTypes": ["Rumah tinggal", "Perumahan", "Villa", "Homestay", "Hotel", "Ruko", "Bangunan usaha", "Kos-kosan"],
+    "popularServices": [
+      "Renovasi rumah dan bangunan",
+      "Tukang bangunan harian dan borongan",
+      "Service dan instalasi AC",
+      "Instalasi dan perbaikan listrik",
+      "Pemasangan dan service CCTV",
+      "Pembuatan pagar, kanopi, dan pekerjaan las"
+    ],
+    "commonProblems": [
+      "Atap bocor, rembes, dan plafon rusak",
+      "Retak dinding atau bagian bangunan mulai menurun kualitasnya",
+      "AC kurang dingin atau bocor pada properti hunian dan penginapan",
+      "Instalasi listrik lama, kurang aman, atau tidak rapi",
+      "Kebutuhan pembaruan rumah, villa, atau homestay agar lebih menarik dan nyaman"
+    ],
+    "nearbyAreas": ["Gerung", "Gunungsari", "Batulayar", "Narmada", "Lembar"],
+    "idealForText": "Layanan TukangDiLombok di Lombok Barat cocok untuk pemilik rumah, owner villa, pengelola homestay, hotel, pemilik kos, pemilik usaha, pengelola properti, kontraktor kecil, dan pelanggan yang membutuhkan tukang atau teknisi untuk perawatan maupun pengerjaan proyek.",
+    "sampleProjects": [
+      "Renovasi beberapa bagian rumah tinggal di Gerung untuk memperbarui tampilan interior dan memperbaiki area yang mulai rusak.",
+      "Perawatan AC dan pengecekan listrik pada villa di Batulayar untuk menjaga kenyamanan properti bagi tamu.",
+      "Pembuatan pagar dan kanopi rumah di Narmada untuk meningkatkan fungsi area depan bangunan."
+    ],
+    "whyChoose": [
+      "Respons cepat untuk konsultasi awal melalui WhatsApp",
+      "Layanan cocok untuk rumah tinggal maupun properti hospitality",
+      "Tukang dan teknisi berpengalaman dengan pengerjaan rapi",
+      "Bisa menangani pekerjaan harian, borongan, atau bertahap"
+    ],
+    "faq": [
+      {
+        "question": "Apakah TukangDiLombok melayani seluruh wilayah Lombok Barat?",
+        "answer": "Ya, kami melayani berbagai area di Lombok Barat seperti Gerung, Gunungsari, Batulayar, Narmada, Lembar, dan wilayah sekitarnya."
+      },
+      {
+        "question": "Apakah bisa survey sebelum pekerjaan dimulai?",
+        "answer": "Bisa. Survey membantu kami memahami kondisi bangunan dan menyesuaikan kebutuhan pekerjaan dengan lebih tepat."
+      },
+      {
+        "question": "Apakah menerima pekerjaan untuk villa dan homestay?",
+        "answer": "Ya, kami melayani kebutuhan villa, homestay, penginapan, dan properti hospitality lainnya di Lombok Barat."
+      },
+      {
+        "question": "Bagaimana cara memesan jasa tukang di Lombok Barat?",
+        "answer": "Anda cukup menghubungi TukangDiLombok melalui WhatsApp, jelaskan kebutuhan Anda, lalu tim kami akan membantu proses konsultasi, survey bila diperlukan, dan penjadwalan kerja."
+      }
+    ],
+    "primaryCta": "Butuh jasa tukang profesional di Lombok Barat untuk rumah, villa, homestay, hotel, atau properti usaha? Hubungi TukangDiLombok sekarang untuk konsultasi cepat via WhatsApp."
   },
   {
     "slug": "lombok-timur",
@@ -36,8 +135,57 @@
     "featured": true,
     "excerpt": "Ideal untuk kawasan rumah, hotel, villa, dan proyek berkembang di Lombok Tengah.",
     "description": "Kami siap menangani kebutuhan tukang dan teknisi di Lombok Tengah untuk properti hunian maupun komersial dengan fokus kecepatan respons dan kualitas hasil.",
-    "neighborhoods": ["Jonggat", "Pujut", "Batukliang", "Praya Barat"],
-    "keywords": ["tukang lombok tengah", "jasa tukang lombok tengah", "teknisi lombok tengah"]
+    "neighborhoods": ["Praya", "Kuta Lombok", "Jonggat", "Pujut", "Batukliang"],
+    "keywords": ["tukang lombok tengah", "jasa tukang lombok tengah", "teknisi lombok tengah"],
+    "heroTitle": "Jasa Tukang Profesional di Lombok Tengah",
+    "heroIntro": "TukangDiLombok melayani jasa tukang dan teknisi profesional di Lombok Tengah untuk kebutuhan rumah tinggal, villa, homestay, hotel, ruko, kantor, bangunan usaha, dan berbagai properti lainnya. Kami membantu pelanggan di Lombok Tengah yang membutuhkan tukang bangunan, renovasi rumah, AC, listrik, CCTV, dan pekerjaan teknis lain dengan respons cepat, komunikasi jelas, dan pengerjaan rapi.",
+    "propertyTypes": ["Rumah tinggal", "Perumahan", "Villa", "Homestay", "Hotel", "Ruko", "Kantor", "Kos dan rumah sewa"],
+    "popularServices": [
+      "Renovasi rumah dan bangunan",
+      "Tukang bangunan harian dan borongan",
+      "Service dan instalasi AC",
+      "Instalasi dan perbaikan listrik",
+      "Pemasangan dan penyesuaian CCTV"
+    ],
+    "commonProblems": [
+      "Rumah bocor dan rembes saat musim hujan",
+      "Dinding retak dan finishing bangunan mulai menurun",
+      "AC kurang dingin atau bocor",
+      "Instalasi listrik lama, kurang rapi, atau perlu ditambah",
+      "Properti membutuhkan CCTV untuk keamanan tambahan"
+    ],
+    "nearbyAreas": ["Praya", "Kuta Lombok", "Jonggat", "Pujut", "Batukliang"],
+    "idealForText": "Layanan TukangDiLombok di Lombok Tengah cocok untuk pemilik rumah, owner villa, pengelola homestay, hotel, pemilik ruko, pengelola properti, pemilik usaha kecil menengah, dan pelanggan yang membutuhkan tukang atau teknisi untuk perawatan rutin maupun proyek tertentu.",
+    "sampleProjects": [
+      "Renovasi beberapa bagian rumah tinggal di Praya untuk memperbarui tampilan bangunan dan meningkatkan kenyamanan ruang.",
+      "Pemasangan AC dan pengecekan listrik pada villa di kawasan Kuta Lombok untuk mendukung kenyamanan tamu.",
+      "Pemasangan CCTV pada rumah atau ruko untuk memantau area masuk, parkir, dan titik penting bangunan."
+    ],
+    "whyChoose": [
+      "Respons cepat untuk konsultasi dan penjadwalan melalui WhatsApp",
+      "Cocok untuk rumah tinggal maupun properti hospitality",
+      "Pengerjaan rapi dan lebih mudah dikoordinasikan",
+      "Bisa menangani renovasi, perbaikan, dan instalasi teknis"
+    ],
+    "faq": [
+      {
+        "question": "Apakah TukangDiLombok melayani seluruh area Lombok Tengah?",
+        "answer": "Ya, kami melayani berbagai area di Lombok Tengah termasuk Praya, Kuta Lombok, dan wilayah sekitar untuk kebutuhan rumah, villa, homestay, bangunan usaha, dan properti lainnya."
+      },
+      {
+        "question": "Apakah bisa untuk renovasi rumah, AC, listrik, dan CCTV sekaligus?",
+        "answer": "Bisa. Kami melayani berbagai kebutuhan tukang dan teknisi sesuai kebutuhan properti Anda, baik untuk pekerjaan bangunan maupun teknis."
+      },
+      {
+        "question": "Apakah menerima pekerjaan kecil dan perawatan rutin?",
+        "answer": "Ya, kami melayani pekerjaan skala kecil, perbaikan ringan, perawatan berkala, hingga proyek yang lebih besar sesuai kebutuhan."
+      },
+      {
+        "question": "Bagaimana cara memesan jasa tukang di Lombok Tengah?",
+        "answer": "Anda cukup menghubungi TukangDiLombok melalui WhatsApp, jelaskan kebutuhan Anda, lalu tim kami akan membantu proses konsultasi, survey bila diperlukan, dan penjadwalan pengerjaan."
+      }
+    ],
+    "primaryCta": "Butuh jasa tukang profesional di Lombok Tengah untuk rumah, villa, homestay, bangunan usaha, atau properti lainnya? Hubungi TukangDiLombok sekarang untuk konsultasi cepat via WhatsApp."
   },
   {
     "slug": "lombok-utara",
@@ -57,7 +205,38 @@
     "excerpt": "Solusi tukang dan teknisi untuk villa, resort, restoran, dan properti wisata di Senggigi.",
     "description": "Senggigi adalah area strategis untuk layanan maintenance cepat pada villa, hotel, dan properti hospitality yang butuh hasil rapi serta minim gangguan operasional.",
     "neighborhoods": ["Kerandangan", "Mangsit", "Batu Layar", "Meninting"],
-    "keywords": ["tukang senggigi", "jasa tukang senggigi", "teknisi senggigi"]
+    "keywords": ["tukang senggigi", "jasa tukang senggigi", "teknisi senggigi"],
+    "heroTitle": "Jasa Tukang Profesional di Senggigi",
+    "heroIntro": "TukangDiLombok melayani jasa tukang dan teknisi profesional di Senggigi untuk kebutuhan villa, hotel, homestay, rumah tinggal, restoran, cafe, dan berbagai properti lainnya. Kami membantu pelanggan di Senggigi yang membutuhkan tukang bangunan, renovasi rumah, AC, listrik, CCTV, dan pekerjaan teknis lain dengan respons cepat, komunikasi jelas, dan pengerjaan rapi.",
+    "propertyTypes": ["Villa", "Hotel", "Homestay", "Guest house", "Rumah tinggal", "Cafe", "Restoran", "Properti komersial"],
+    "popularServices": [
+      "Renovasi rumah, villa, dan bangunan",
+      "Tukang bangunan harian dan borongan",
+      "Service dan instalasi AC",
+      "Instalasi dan perbaikan listrik",
+      "Pemasangan dan penyesuaian CCTV"
+    ],
+    "commonProblems": [
+      "Bangunan perlu perawatan rutin agar tetap layak pakai",
+      "AC kurang dingin pada villa, homestay, atau kamar tamu",
+      "Instalasi listrik perlu dirapikan atau disesuaikan",
+      "Properti perlu direnovasi agar terlihat lebih menarik dan nyaman",
+      "Kebutuhan peningkatan keamanan melalui pemasangan CCTV"
+    ],
+    "nearbyAreas": ["Kerandangan", "Mangsit", "Batu Layar", "Meninting"],
+    "idealForText": "Layanan TukangDiLombok di Senggigi cocok untuk owner villa, pengelola homestay, hotel, pemilik rumah, pemilik cafe atau restoran, pengelola properti, serta pelanggan yang membutuhkan tukang atau teknisi untuk perawatan rutin maupun pengerjaan proyek tertentu.",
+    "sampleProjects": [
+      "Pemasangan AC dan perawatan beberapa unit pada villa di Senggigi untuk menjaga kenyamanan tamu.",
+      "Renovasi area tertentu pada homestay agar tampilan bangunan lebih rapi dan menarik.",
+      "Pemasangan CCTV dan penyesuaian area pantau untuk mendukung keamanan area masuk dan area umum."
+    ],
+    "whyChoose": [
+      "Respons cepat untuk konsultasi dan penjadwalan melalui WhatsApp",
+      "Cocok untuk rumah tinggal maupun properti hospitality",
+      "Pengerjaan rapi dan lebih mudah dikoordinasikan",
+      "Bisa menangani renovasi, perbaikan, dan instalasi teknis"
+    ],
+    "primaryCta": "Butuh jasa tukang profesional di Senggigi untuk villa, hotel, homestay, rumah, atau properti usaha? Hubungi TukangDiLombok sekarang untuk konsultasi cepat via WhatsApp."
   },
   {
     "slug": "praya",
@@ -67,7 +246,39 @@
     "excerpt": "Layanan praktis untuk hunian, ruko, dan area berkembang di Praya.",
     "description": "Praya kami dukung dengan layanan tukang yang siap untuk pembangunan baru, renovasi, instalasi teknisi, dan maintenance rutin bangunan.",
     "neighborhoods": ["Praya Tengah", "Renteng", "Prapen", "Leneng"],
-    "keywords": ["tukang praya", "jasa tukang praya", "teknisi praya"]
+    "keywords": ["tukang praya", "jasa tukang praya", "teknisi praya"],
+    "heroTitle": "Jasa Tukang Profesional di Praya",
+    "heroIntro": "TukangDiLombok melayani jasa tukang dan teknisi profesional di Praya untuk kebutuhan rumah tinggal, kos, ruko, homestay, kantor, bangunan usaha, dan berbagai properti lainnya. Kami membantu pelanggan di Praya yang membutuhkan tukang bangunan, renovasi rumah, listrik, AC, CCTV, dan pekerjaan teknis lain dengan respons cepat, komunikasi jelas, dan pengerjaan rapi.",
+    "propertyTypes": ["Rumah tinggal", "Kos dan rumah sewa", "Ruko", "Bangunan usaha", "Homestay", "Kantor"],
+    "popularServices": [
+      "Renovasi rumah dan bangunan",
+      "Tukang bangunan harian dan borongan",
+      "Service dan instalasi AC",
+      "Instalasi dan perbaikan listrik",
+      "Pemasangan CCTV",
+      "Perbaikan atap, plafon, dan finishing bangunan"
+    ],
+    "commonProblems": [
+      "Rumah bocor dan rembes saat musim hujan",
+      "Dinding retak dan bagian bangunan mulai rusak",
+      "Rumah lama ingin diperbarui agar lebih nyaman dan modern",
+      "AC kurang dingin atau bocor",
+      "Instalasi listrik lama, semrawut, atau sering bermasalah"
+    ],
+    "nearbyAreas": ["Praya Tengah", "Renteng", "Prapen", "Leneng"],
+    "idealForText": "Layanan TukangDiLombok di Praya cocok untuk pemilik rumah, pemilik kos, pemilik ruko, pengelola homestay, pemilik usaha kecil, keluarga yang sedang renovasi rumah, dan pelanggan yang membutuhkan tukang atau teknisi untuk perbaikan maupun proyek yang lebih terencana.",
+    "sampleProjects": [
+      "Renovasi kamar mandi dan dapur rumah di Praya untuk meningkatkan fungsi ruang dan memperbaiki kualitas finishing.",
+      "Perbaikan plafon, atap, dan cat rumah lama agar hunian lebih nyaman dan tampil lebih rapi.",
+      "Instalasi AC dan pengecekan listrik pada bangunan usaha kecil agar ruang lebih nyaman untuk aktivitas harian."
+    ],
+    "whyChoose": [
+      "Respons cepat untuk konsultasi awal melalui WhatsApp",
+      "Bisa menangani rumah tinggal hingga bangunan usaha",
+      "Tukang dan teknisi berpengalaman dengan pengerjaan rapi",
+      "Fleksibel untuk pekerjaan kecil, menengah, harian, atau borongan"
+    ],
+    "primaryCta": "Butuh jasa tukang profesional di Praya untuk renovasi, bangunan, AC, listrik, CCTV, atau kebutuhan properti lainnya? Hubungi TukangDiLombok sekarang untuk konsultasi cepat via WhatsApp."
   },
   {
     "slug": "selong",
@@ -90,14 +301,45 @@
     "keywords": ["tukang gerung", "jasa tukang gerung", "teknisi gerung"]
   },
   {
-    "slug": "kuta-mandalika",
-    "name": "Kuta Mandalika",
+    "slug": "kuta-lombok",
+    "name": "Kuta Lombok",
     "type": "Kawasan",
     "featured": true,
-    "excerpt": "Prioritas untuk proyek villa, homestay, restoran, dan properti hospitality di Kuta Mandalika.",
-    "description": "Kuta Mandalika kami layani untuk kebutuhan pembangunan, renovasi, interior, CCTV, jaringan internet, hingga perawatan cepat properti wisata.",
+    "excerpt": "Prioritas untuk proyek villa, homestay, restoran, dan properti hospitality di Kuta Lombok.",
+    "description": "Kuta Lombok kami layani untuk kebutuhan pembangunan, renovasi, interior, CCTV, jaringan internet, hingga perawatan cepat properti wisata.",
     "neighborhoods": ["Kuta", "Mertak", "Gerupuk", "Sade"],
-    "keywords": ["tukang kuta mandalika", "jasa tukang kuta mandalika", "teknisi kuta mandalika"]
+    "keywords": ["tukang kuta lombok", "jasa tukang kuta lombok", "teknisi kuta lombok"],
+    "heroTitle": "Jasa Tukang Profesional di Kuta Lombok",
+    "heroIntro": "TukangDiLombok melayani jasa tukang dan teknisi profesional di Kuta Lombok untuk kebutuhan villa, hotel, homestay, rumah tinggal, cafe, restoran, ruko, dan berbagai properti lainnya. Kami membantu pelanggan di Kuta Lombok yang membutuhkan tukang bangunan, renovasi rumah, AC, listrik, CCTV, dan pekerjaan teknis lain dengan respons cepat, komunikasi jelas, dan pengerjaan rapi.",
+    "propertyTypes": ["Villa", "Homestay", "Hotel", "Rumah tinggal", "Cafe", "Restoran", "Bangunan usaha", "Properti komersial"],
+    "popularServices": [
+      "Renovasi rumah, villa, dan bangunan",
+      "Tukang bangunan harian dan borongan",
+      "Service dan instalasi AC",
+      "Instalasi dan perbaikan listrik",
+      "Pemasangan dan penyesuaian CCTV"
+    ],
+    "commonProblems": [
+      "Properti perlu perawatan rutin agar tetap nyaman digunakan",
+      "AC kurang dingin pada villa, homestay, atau kamar tamu",
+      "Instalasi listrik perlu dirapikan atau ditambah sesuai kebutuhan baru",
+      "Bangunan perlu pembaruan agar tampil lebih modern dan layak pakai",
+      "Area tertentu membutuhkan CCTV untuk keamanan tambahan"
+    ],
+    "nearbyAreas": ["Kuta", "Mertak", "Gerupuk", "Sade"],
+    "idealForText": "Layanan TukangDiLombok di Kuta Lombok cocok untuk owner villa, pengelola homestay, hotel, pemilik rumah, pemilik cafe atau restoran, pengelola properti, investor properti, dan pelanggan yang membutuhkan tukang atau teknisi untuk perawatan rutin maupun proyek tertentu.",
+    "sampleProjects": [
+      "Pemasangan AC dan perawatan beberapa unit pada villa di Kuta Lombok untuk menjaga kenyamanan tamu.",
+      "Renovasi sebagian area homestay agar tampilan bangunan lebih rapi dan menarik.",
+      "Pemasangan CCTV pada bangunan usaha untuk memantau area masuk dan area operasional."
+    ],
+    "whyChoose": [
+      "Respons cepat untuk konsultasi dan penjadwalan melalui WhatsApp",
+      "Cocok untuk rumah tinggal maupun properti hospitality",
+      "Pengerjaan rapi dan lebih mudah dikoordinasikan",
+      "Bisa menangani renovasi, perbaikan, dan instalasi teknis"
+    ],
+    "primaryCta": "Butuh jasa tukang profesional di Kuta Lombok untuk villa, hotel, homestay, rumah, atau properti usaha? Hubungi TukangDiLombok sekarang untuk konsultasi cepat via WhatsApp."
   },
   {
     "slug": "ampenan",

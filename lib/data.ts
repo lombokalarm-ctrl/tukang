@@ -1,5 +1,6 @@
 import articleMetaData from "@/data/articles.json";
 import faqsData from "@/data/faqs.json";
+import landingPageData from "@/data/landing-pages.json";
 import locationsData from "@/data/locations.json";
 import portfolioData from "@/data/portfolio.json";
 import servicesData from "@/data/services.json";
@@ -8,6 +9,7 @@ import type {
   ArticleMeta,
   FAQItem,
   LandingPage,
+  LandingPageOverride,
   Location,
   PortfolioItem,
   Service,
@@ -20,6 +22,7 @@ export const testimonials = testimonialsData as Testimonial[];
 export const portfolioItems = portfolioData as PortfolioItem[];
 export const articleMeta = articleMetaData as ArticleMeta[];
 export const siteFaqs = faqsData as FAQItem[];
+export const landingPageOverrides = landingPageData as LandingPageOverride[];
 
 export function getServiceBySlug(slug: string) {
   return services.find((item) => item.slug === slug);
@@ -45,14 +48,32 @@ export function getLandingPath(service: Service, location: Location) {
 
 export function getAllLandingPages(): LandingPage[] {
   return services.flatMap((service) =>
-    locations.map((location) => ({
-      slug: getLandingSlug(service, location),
-      service,
-      location,
-      path: getLandingPath(service, location),
-      title: `${service.name} ${location.name} | ${service.shortName} Profesional Lombok`,
-      description: `${service.name} di ${location.name} untuk rumah, villa, hotel, kantor, dan proyek komersial. Konsultasi cepat via WhatsApp dengan tim TukangDiLombok.com.`,
-    })),
+    locations.map((location) => {
+      const slug = getLandingSlug(service, location);
+      const override = landingPageOverrides.find((item) => item.slug === slug);
+
+      return {
+        slug,
+        service,
+        location,
+        path: getLandingPath(service, location),
+        title: override?.title ?? `${service.name} ${location.name} | ${service.shortName} Profesional Lombok`,
+        description:
+          override?.description ??
+          `${service.name} di ${location.name} untuk rumah, villa, hotel, kantor, dan proyek komersial. Konsultasi cepat via WhatsApp dengan tim TukangDiLombok.com.`,
+        intro: override?.intro,
+        localNeed: override?.localNeed,
+        localProblems: override?.localProblems,
+        handledWork: override?.handledWork,
+        idealForText: override?.idealForText,
+        reasons: override?.reasons,
+        nearbyAreas: override?.nearbyAreas,
+        caseStudies: override?.caseStudies,
+        systemAndPricing: override?.systemAndPricing,
+        faq: override?.faq,
+        primaryCta: override?.primaryCta,
+      } satisfies LandingPage;
+    }),
   );
 }
 

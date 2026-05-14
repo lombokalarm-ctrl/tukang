@@ -1,34 +1,62 @@
 [
   {
-    "question": "Apakah TukangDiLombok melayani seluruh Pulau Lombok?",
-    "answer": "Ya. Kami melayani Mataram, Lombok Barat, Lombok Timur, Lombok Tengah, Lombok Utara, Senggigi, Praya, Selong, Gerung, Kuta Mandalika, Ampenan, Cakranegara, Gunungsari, Narmada, Batulayar, dan area Lombok lainnya sesuai jadwal tim."
+    "question": "Apa itu TukangDiLombok?",
+    "answer": "TukangDiLombok adalah platform jasa tukang dan teknisi profesional di Lombok yang membantu kebutuhan bangunan, renovasi rumah, AC, listrik, CCTV, dan berbagai pekerjaan teknis lainnya untuk rumah maupun properti komersial."
+  },
+  {
+    "question": "Area mana saja yang dilayani TukangDiLombok?",
+    "answer": "Kami melayani berbagai wilayah di Lombok seperti Mataram, Lombok Barat, Lombok Tengah, Praya, Senggigi, Kuta Lombok, Ampenan, Gerung, Selong, dan area lainnya di Pulau Lombok."
+  },
+  {
+    "question": "Apakah TukangDiLombok hanya melayani rumah tinggal?",
+    "answer": "Tidak. Kami juga melayani villa, hotel, homestay, kantor, ruko, bangunan usaha, kos, dan berbagai properti komersial lainnya."
+  },
+  {
+    "question": "Apa saja layanan utama yang tersedia?",
+    "answer": "Layanan utama kami meliputi tukang bangunan, renovasi rumah, tukang AC, tukang listrik, tukang CCTV, serta pekerjaan lain seperti kanopi, pagar, dan kebutuhan teknis properti."
+  },
+  {
+    "question": "Bagaimana cara memesan layanan?",
+    "answer": "Anda cukup menghubungi kami melalui WhatsApp, menjelaskan kebutuhan pekerjaan, lokasi area, dan jika ada mengirim foto kondisi lapangan agar kami bisa membantu konsultasi awal."
+  },
+  {
+    "question": "Apakah bisa konsultasi terlebih dahulu sebelum memesan?",
+    "answer": "Bisa. Konsultasi awal dapat dilakukan melalui WhatsApp untuk membantu memahami kebutuhan Anda sebelum masuk ke tahap survey atau penjadwalan."
+  },
+  {
+    "question": "Apakah survey lokasi tersedia?",
+    "answer": "Ya, untuk jenis pekerjaan tertentu seperti renovasi rumah, bangunan, listrik, AC, atau CCTV, survey lokasi dapat dilakukan bila diperlukan agar kebutuhan pekerjaan lebih jelas."
   },
   {
     "question": "Apakah bisa pesan tukang harian maupun borongan?",
-    "answer": "Bisa. Kami menyiapkan opsi tukang harian untuk pekerjaan fleksibel dan tukang borongan untuk scope proyek yang sudah lebih jelas."
+    "answer": "Bisa. Kami menyiapkan opsi tukang harian untuk pekerjaan fleksibel dan tukang borongan untuk lingkup proyek yang sudah lebih jelas."
   },
   {
-    "question": "Bagaimana cara konsultasi dan pemesanan?",
-    "answer": "Cara tercepat adalah klik tombol WhatsApp, jelaskan kebutuhan Anda, kirim lokasi, foto area kerja bila ada, lalu tim kami membantu screening kebutuhan dan penjadwalan."
+    "question": "Apakah menerima pekerjaan kecil?",
+    "answer": "Ya, kami menerima pekerjaan kecil seperti perbaikan bagian tertentu, penambahan titik listrik, cuci AC, atau penyesuaian minor sesuai kebutuhan."
+  },
+  {
+    "question": "Berapa estimasi biaya jasa tukang di Lombok?",
+    "answer": "Estimasi biaya tergantung jenis layanan, volume pekerjaan, tingkat kesulitan, material yang digunakan, kondisi lapangan, dan lokasi pengerjaan."
+  },
+  {
+    "question": "Apakah harga bisa langsung pasti lewat chat?",
+    "answer": "Untuk beberapa pekerjaan ringan kami bisa memberi gambaran awal. Namun untuk pekerjaan yang lebih kompleks, harga final biasanya lebih akurat setelah survey atau penjelasan yang lebih detail."
   },
   {
     "question": "Apakah melayani rumah, villa, hotel, dan kantor?",
     "answer": "Ya. Target layanan kami mencakup rumah tangga, villa, hotel, perkantoran, ruko, developer perumahan, property owner, dan kontraktor."
   },
   {
-    "question": "Apakah tersedia layanan survey lokasi?",
-    "answer": "Tersedia untuk jenis pekerjaan tertentu seperti renovasi, interior, kitchen set, CCTV, smart home, dan pekerjaan yang membutuhkan pengecekan teknis lebih detail."
+    "question": "Apakah melayani service AC rumah dan villa?",
+    "answer": "Ya, kami melayani service AC untuk rumah tinggal, villa, homestay, hotel, kantor, dan properti lainnya."
   },
   {
-    "question": "Apakah bisa untuk pekerjaan kecil dan maintenance?",
-    "answer": "Bisa. Kami juga melayani service rumah tangga, handyman, perbaikan minor, dan maintenance berkala untuk properti sewa maupun rumah tinggal."
+    "question": "Apakah bisa menambah titik lampu atau stop kontak?",
+    "answer": "Bisa. Kami melayani penambahan titik listrik untuk rumah, ruko, kantor, villa, dan berbagai properti lainnya."
   },
   {
-    "question": "Berapa lama respons admin?",
-    "answer": "Respons biasanya cepat melalui WhatsApp pada jam operasional. Untuk kebutuhan mendesak, kirim detail masalah dan lokasi agar tim bisa memprioritaskan penanganan."
-  },
-  {
-    "question": "Apakah website ini siap dikembangkan untuk ribuan halaman SEO?",
-    "answer": "Ya. Arsitektur data-driven pada website ini memungkinkan penambahan layanan, area, artikel, dan landing page programmatic SEO secara scalable."
+    "question": "Apakah melayani pemasangan CCTV rumah dan usaha?",
+    "answer": "Ya, kami melayani pemasangan CCTV untuk rumah tinggal, villa, homestay, hotel, toko, kantor, ruko, dan berbagai bangunan usaha lain."
   }
 ]

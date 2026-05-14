@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Clock3, Share2 } from "lucide-react";
+import { ArrowRight, Clock3, Share2 } from "lucide-react";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { JsonLd } from "@/components/json-ld";
 import { ArticleCard } from "@/components/sections/article-card";
 import { CTASection } from "@/components/sections/cta-section";
+import { SectionHeading } from "@/components/sections/section-heading";
+import { Button } from "@/components/ui/button";
 import { getAllArticles, getArticleBySlug, getRelatedArticles } from "@/lib/blog";
 import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import { articleSchema, breadcrumbSchema } from "@/lib/schema";
@@ -72,6 +74,20 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
             <a className="inline-flex items-center gap-2 rounded-full border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-orange-300 hover:text-orange-600" href={`https://wa.me/?text=${encodeURIComponent(articleUrl)}`} rel="noreferrer" target="_blank"><Share2 className="h-4 w-4" />Bagikan via WhatsApp</a>
             <a className="inline-flex items-center gap-2 rounded-full border border-slate-200 px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-orange-300 hover:text-orange-600" href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(articleUrl)}&text=${encodeURIComponent(article.title)}`} rel="noreferrer" target="_blank"><Share2 className="h-4 w-4" />Share ke X</a>
           </div>
+          <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+            <Button asChild variant="outline">
+              <Link href="/harga">
+                Lihat Harga dan Estimasi
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Button>
+            <Button asChild variant="outline">
+              <Link href="/testimoni">
+                Baca Testimoni
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
           <div className="prose-content mt-10 max-w-none"><article.Content /></div>
         </article>
 
@@ -85,6 +101,46 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ slu
             </div>
           </div>
         </aside>
+      </section>
+
+      <section className="mt-16 rounded-[2rem] border border-slate-200 bg-slate-50 p-8 shadow-sm">
+        <SectionHeading
+          description="Artikel blog membantu Anda memahami konteks kebutuhan. Jika Anda sudah masuk fase mempertimbangkan biaya, ingin melihat bukti sosial, atau siap menjelaskan kebutuhan, tiga jalur ini biasanya paling relevan."
+          eyebrow="Setelah Membaca"
+          title="Lanjut ke langkah berikutnya"
+        />
+        <div className="mt-8 grid gap-6 lg:grid-cols-3">
+          <article className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="text-sm font-black uppercase tracking-[0.18em] text-orange-600">Harga</div>
+            <h2 className="mt-3 text-2xl font-black tracking-tight text-slate-900">Pelajari estimasi lebih dulu</h2>
+            <p className="mt-4 text-sm leading-7 text-slate-600">
+              Halaman harga menjelaskan faktor biaya dan pilihan sistem kerja yang paling umum untuk kebutuhan jasa tukang di Lombok.
+            </p>
+            <Button asChild className="mt-6" variant="outline">
+              <Link href="/harga">Buka Halaman Harga</Link>
+            </Button>
+          </article>
+          <article className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="text-sm font-black uppercase tracking-[0.18em] text-orange-600">Testimoni</div>
+            <h2 className="mt-3 text-2xl font-black tracking-tight text-slate-900">Lihat pengalaman pelanggan lain</h2>
+            <p className="mt-4 text-sm leading-7 text-slate-600">
+              Halaman testimoni membantu memberi gambaran bagaimana pelanggan lain menilai respons, komunikasi, dan hasil kerja tim kami.
+            </p>
+            <Button asChild className="mt-6" variant="outline">
+              <Link href="/testimoni">Buka Halaman Testimoni</Link>
+            </Button>
+          </article>
+          <article className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="text-sm font-black uppercase tracking-[0.18em] text-orange-600">Kontak</div>
+            <h2 className="mt-3 text-2xl font-black tracking-tight text-slate-900">Siap jelaskan kebutuhan Anda</h2>
+            <p className="mt-4 text-sm leading-7 text-slate-600">
+              Halaman kontak membantu Anda menyiapkan detail layanan, lokasi, dan target hasil agar konsultasi lewat WhatsApp bisa lebih cepat ditindaklanjuti.
+            </p>
+            <Button asChild className="mt-6" variant="outline">
+              <Link href="/kontak">Buka Halaman Kontak</Link>
+            </Button>
+          </article>
+        </div>
       </section>
 
       <section className="mt-16">

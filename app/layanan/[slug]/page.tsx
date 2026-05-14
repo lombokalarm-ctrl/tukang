@@ -50,6 +50,7 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
   const relatedServices = getRelatedServices(service.slug, 4);
   const areas = getFeaturedLocations().slice(0, 4);
   const articles = getAllArticles().filter((article) => article.keywords.some((keyword) => service.keywords.includes(keyword))).slice(0, 3);
+  const faqItems = service.faq?.length ? service.faq : siteFaqs.slice(0, 4);
   const breadcrumbs = [
     { name: "Beranda", path: "/" },
     { name: "Layanan", path: "/layanan" },
@@ -60,30 +61,33 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
     <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
       <JsonLd data={breadcrumbSchema(breadcrumbs)} />
       <JsonLd data={serviceSchema(service, `/layanan/${service.slug}`)} />
-      <JsonLd data={faqSchema(siteFaqs.slice(0, 4))} />
+      <JsonLd data={faqSchema(faqItems)} />
       <Breadcrumbs items={breadcrumbs} />
 
       <section className="grid gap-10 lg:grid-cols-[1fr_0.8fr]">
         <div>
           <div className="text-sm font-black uppercase tracking-[0.24em] text-orange-600">Layanan Profesional</div>
-          <h1 className="mt-4 text-4xl font-black tracking-tight text-slate-900 sm:text-5xl">{service.name} di Lombok</h1>
-          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">{service.description}</p>
+          <h1 className="mt-4 text-4xl font-black tracking-tight text-slate-900 sm:text-5xl">{service.heroTitle ?? `${service.name} di Lombok`}</h1>
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">{service.heroIntro ?? service.description}</p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button asChild>
               <Link href="/kontak">Konsultasi Sekarang</Link>
             </Button>
             <Button asChild variant="outline">
-              <Link href="/area-layanan">
-                Lihat Area Layanan
+              <Link href="/harga">
+                Lihat Harga dan Estimasi
                 <ArrowRight className="h-4 w-4" />
               </Link>
+            </Button>
+            <Button asChild variant="ghost">
+              <Link href="/testimoni">Baca Testimoni</Link>
             </Button>
           </div>
         </div>
         <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
           <h2 className="text-2xl font-bold text-slate-900">Keunggulan layanan</h2>
           <div className="mt-5 space-y-4">
-            {service.benefits.map((benefit) => (
+            {(service.whyChoose?.length ? service.whyChoose : service.benefits).map((benefit) => (
               <div className="rounded-2xl bg-slate-50 px-4 py-4 text-sm leading-7 text-slate-700" key={benefit}>
                 {benefit}
               </div>
@@ -94,21 +98,95 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
       <section className="mt-16 grid gap-10 lg:grid-cols-2">
         <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
-          <h2 className="text-2xl font-bold text-slate-900">Kapan layanan ini paling dibutuhkan?</h2>
+          <h2 className="text-2xl font-bold text-slate-900">Masalah yang sering kami tangani</h2>
           <ul className="mt-5 space-y-3 text-slate-600">
-            {service.useCases.map((item) => (
+            {(service.problems?.length ? service.problems : service.useCases).map((item) => (
               <li key={item}>- {item}</li>
             ))}
           </ul>
         </div>
         <div className="rounded-[2rem] border border-slate-200 bg-slate-950 p-8 text-white shadow-sm">
-          <h2 className="text-2xl font-bold">Cocok untuk rumah dan properti komersial</h2>
-          <p className="mt-4 text-base leading-8 text-slate-300">
-            Layanan ini relevan untuk rumah tinggal, villa, hotel, kantor, ruko, properti sewa, dan proyek skala kecil sampai menengah di seluruh Pulau Lombok.
-          </p>
-          <div className="mt-6 text-sm leading-8 text-slate-300">Keyword utama: {service.keywords.join(", ")}.</div>
+          <h2 className="text-2xl font-bold">Pekerjaan yang bisa kami tangani</h2>
+          <ul className="mt-5 space-y-3 text-sm leading-7 text-slate-300">
+            {(service.workItems?.length ? service.workItems : service.useCases).map((item) => (
+              <li key={item}>- {item}</li>
+            ))}
+          </ul>
         </div>
       </section>
+
+      {service.idealFor?.length ? (
+        <section className="mt-16 rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
+          <SectionHeading
+            description="Layanan ini dirancang untuk berbagai tipe pelanggan dan properti yang membutuhkan hasil rapi dan koordinasi jelas."
+            eyebrow="Cocok Untuk"
+            title={`Siapa yang paling cocok menggunakan ${service.shortName.toLowerCase()} ini?`}
+          />
+          <div className="mt-8 flex flex-wrap gap-3">
+            {service.idealFor.map((item) => (
+              <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700" key={item}>
+                {item}
+              </span>
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      {service.areaCoverage ? (
+        <section className="mt-16 rounded-[2rem] border border-slate-200 bg-slate-950 p-8 text-white shadow-sm">
+          <SectionHeading
+            description="Cakupan area dibuat agar pelanggan lebih mudah melihat relevansi layanan dengan lokasi proyek mereka."
+            eyebrow="Area Cakupan"
+            title={`Area populer untuk ${service.shortName.toLowerCase()}`}
+          />
+          <p className="mt-8 max-w-4xl text-base leading-8 text-slate-300">{service.areaCoverage}</p>
+        </section>
+      ) : null}
+
+      {service.systemAndPricing?.length ? (
+        <section className="mt-16 rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
+          <SectionHeading
+            description="Penjelasan singkat tentang sistem kerja dan catatan estimasi biaya agar ekspektasi pelanggan lebih terarah sejak awal."
+            eyebrow="Sistem Kerja"
+            title="Cara kerja dan catatan estimasi"
+          />
+          <div className="mt-8 space-y-4">
+            {service.systemAndPricing.map((item) => (
+              <div className="rounded-2xl bg-slate-50 px-5 py-4 text-sm leading-7 text-slate-700" key={item}>
+                {item}
+              </div>
+            ))}
+          </div>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <Button asChild variant="outline">
+              <Link href="/harga">
+                Buka Panduan Harga Lengkap
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Button>
+            <Button asChild variant="ghost">
+              <Link href="/kontak">Minta Estimasi Awal</Link>
+            </Button>
+          </div>
+        </section>
+      ) : null}
+
+      {service.caseStudies?.length ? (
+        <section className="mt-16 rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
+          <SectionHeading
+            description="Contoh kebutuhan proyek memberi konteks nyata tentang jenis pekerjaan yang bisa ditangani untuk layanan ini."
+            eyebrow="Contoh Proyek"
+            title={`Contoh pekerjaan ${service.shortName.toLowerCase()} yang sering kami tangani`}
+          />
+          <div className="mt-8 space-y-4">
+            {service.caseStudies.map((item) => (
+              <div className="rounded-2xl bg-slate-50 px-5 py-4 text-sm leading-7 text-slate-700" key={item}>
+                {item}
+              </div>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="mt-16">
         <SectionHeading description="Area prioritas untuk layanan ini dengan internal linking ke halaman lokal." eyebrow="Area Terkait" title={`Area layanan populer untuk ${service.shortName}`} />
@@ -140,11 +218,51 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
       ) : null}
 
       <section className="mt-16">
-        <FAQSection description="Pertanyaan umum sebelum memesan layanan ini di Lombok." items={siteFaqs.slice(0, 4)} title={`FAQ ${service.name}`} />
+        <FAQSection description="Pertanyaan umum sebelum memesan layanan ini di Lombok." items={faqItems} title={`FAQ ${service.name}`} />
+      </section>
+
+      <section className="mt-16 rounded-[2rem] border border-slate-200 bg-slate-50 p-8 shadow-sm">
+        <SectionHeading
+          description="Sebelum menghubungi tim, sebagian pengunjung biasanya ingin melihat dua hal ini: gambaran estimasi dan pengalaman pelanggan lain. Karena itu kami sediakan jalur cepat berikut."
+          eyebrow="Jalur Lanjutan"
+          title="Butuh pembanding sebelum konsultasi?"
+        />
+        <div className="mt-8 grid gap-6 lg:grid-cols-2">
+          <article className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="text-sm font-black uppercase tracking-[0.18em] text-orange-600">Harga</div>
+            <h3 className="mt-3 text-2xl font-black tracking-tight text-slate-900">Lihat cara estimasi disusun</h3>
+            <p className="mt-4 text-sm leading-7 text-slate-600">
+              Halaman harga membantu Anda memahami faktor biaya, sistem kerja, dan jenis informasi yang sebaiknya disiapkan sebelum meminta gambaran awal.
+            </p>
+            <Button asChild className="mt-6" variant="outline">
+              <Link href="/harga">
+                Buka Halaman Harga
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Button>
+          </article>
+          <article className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="text-sm font-black uppercase tracking-[0.18em] text-orange-600">Testimoni</div>
+            <h3 className="mt-3 text-2xl font-black tracking-tight text-slate-900">Lihat pengalaman pelanggan lain</h3>
+            <p className="mt-4 text-sm leading-7 text-slate-600">
+              Halaman testimoni memperlihatkan bagaimana pelanggan menilai respons, komunikasi, dan hasil kerja TukangDiLombok untuk berbagai kebutuhan properti.
+            </p>
+            <Button asChild className="mt-6" variant="outline">
+              <Link href="/testimoni">
+                Buka Halaman Testimoni
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Button>
+          </article>
+        </div>
       </section>
 
       <section className="mt-16">
-        <CTASection description={`Konsultasikan kebutuhan ${service.name.toLowerCase()} Anda bersama tim TukangDiLombok.com.`} message={`Halo TukangDiLombok.com, saya ingin konsultasi ${service.name.toLowerCase()} di Lombok.`} title={`Butuh ${service.name.toLowerCase()} di Lombok? Hubungi sekarang`} />
+        <CTASection
+          description={`Konsultasikan kebutuhan ${service.name.toLowerCase()} Anda bersama tim TukangDiLombok.com.`}
+          message={`Halo TukangDiLombok.com, saya ingin konsultasi ${service.name.toLowerCase()} di Lombok.`}
+          title={service.primaryCta ?? `Butuh ${service.name.toLowerCase()} di Lombok? Hubungi sekarang`}
+        />
       </section>
     </div>
   );

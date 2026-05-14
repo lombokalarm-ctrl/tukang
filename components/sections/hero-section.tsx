@@ -7,7 +7,11 @@ import { Button } from "@/components/ui/button";
 import { createWhatsAppLink } from "@/lib/site";
 import { SearchPanel } from "@/components/sections/search-panel";
 
-const highlights = ["Respons cepat via WhatsApp", "Tukang dan teknisi terkurasi", "Melayani rumah, villa, hotel, dan kantor"];
+const highlights = [
+  "Respons cepat dan mudah konsultasi via WhatsApp",
+  "Tukang dan teknisi berpengalaman dengan pengerjaan rapi",
+  "Melayani rumah, villa, hotel, dan properti komersial di seluruh Lombok",
+];
 
 export function HeroSection() {
   return (
@@ -16,13 +20,13 @@ export function HeroSection() {
         <div>
           <motion.div animate={{ opacity: 1, y: 0 }} initial={{ opacity: 0, y: 16 }} transition={{ duration: 0.4 }}>
             <div className="inline-flex rounded-full border border-orange-200 bg-orange-50 px-4 py-2 text-sm font-bold text-orange-700">
-              Website jasa tukang Lombok fokus SEO lokal dan konversi WhatsApp
+              Jasa tukang dan teknisi profesional untuk rumah, villa, hotel, dan properti di seluruh Lombok
             </div>
             <h1 className="mt-6 max-w-4xl text-4xl font-black tracking-tight text-slate-950 sm:text-5xl lg:text-6xl">
-              Tukang dan Teknisi Profesional di Lombok untuk Rumah, Villa, Hotel, dan Properti Anda
+              Jasa Tukang Profesional dan Teknisi Terpercaya di Lombok
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              Temukan tukang bangunan, renovasi rumah, tukang AC, listrik, CCTV, ledeng, interior, kanopi, pagar, smart home, solar panel, dan teknisi lain di seluruh Pulau Lombok.
+              Melayani tukang bangunan, listrik, AC, CCTV, renovasi rumah, dan berbagai kebutuhan properti untuk rumah, villa, hotel, dan bisnis di seluruh Lombok dengan pengerjaan rapi dan respons cepat.
             </p>
           </motion.div>
 
@@ -60,12 +64,12 @@ export function HeroSection() {
             </p>
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <div className="rounded-3xl bg-white/8 p-4">
-                <div className="text-3xl font-black text-white">15+</div>
+                <div className="text-3xl font-black text-white">10+</div>
                 <div className="mt-1 text-sm text-slate-300">Area layanan prioritas</div>
               </div>
               <div className="rounded-3xl bg-white/8 p-4">
-                <div className="text-3xl font-black text-white">16+</div>
-                <div className="mt-1 text-sm text-slate-300">Kategori jasa populer</div>
+                <div className="text-3xl font-black text-white">5</div>
+                <div className="mt-1 text-sm text-slate-300">Layanan unggulan</div>
               </div>
             </div>
           </div>

@@ -2,6 +2,11 @@ import type { ComponentType } from "react";
 
 export type LandingPattern = "jasa" | "direct";
 
+export type FAQItem = {
+  question: string;
+  answer: string;
+};
+
 export type Service = {
   slug: string;
   name: string;
@@ -15,6 +20,17 @@ export type Service = {
   benefits: string[];
   useCases: string[];
   keywords: string[];
+  heroTitle?: string;
+  heroIntro?: string;
+  problems?: string[];
+  workItems?: string[];
+  idealFor?: string[];
+  areaCoverage?: string;
+  whyChoose?: string[];
+  systemAndPricing?: string[];
+  caseStudies?: string[];
+  faq?: FAQItem[];
+  primaryCta?: string;
 };
 
 export type Location = {
@@ -26,6 +42,17 @@ export type Location = {
   description: string;
   neighborhoods: string[];
   keywords: string[];
+  heroTitle?: string;
+  heroIntro?: string;
+  propertyTypes?: string[];
+  popularServices?: string[];
+  commonProblems?: string[];
+  nearbyAreas?: string[];
+  idealForText?: string;
+  sampleProjects?: string[];
+  whyChoose?: string[];
+  faq?: FAQItem[];
+  primaryCta?: string;
 };
 
 export type Testimonial = {
@@ -43,8 +70,10 @@ export type PortfolioItem = {
   title: string;
   serviceSlug: string;
   locationSlug: string;
+  propertyType?: string;
   summary: string;
   before: string;
+  workDone?: string;
   after: string;
   image: string;
   value: string;
@@ -60,11 +89,6 @@ export type ArticleMeta = {
   updatedAt: string;
   author: string;
   keywords: string[];
-};
-
-export type FAQItem = {
-  question: string;
-  answer: string;
 };
 
 export type BreadcrumbItem = {
@@ -91,4 +115,32 @@ export type LandingPage = {
   title: string;
   description: string;
   path: string;
+  intro?: string;
+  localNeed?: string;
+  localProblems?: string[];
+  handledWork?: string[];
+  idealForText?: string;
+  reasons?: string[];
+  nearbyAreas?: string[];
+  caseStudies?: string[];
+  systemAndPricing?: string[];
+  faq?: FAQItem[];
+  primaryCta?: string;
+};
+
+export type LandingPageOverride = {
+  slug: string;
+  title?: string;
+  description: string;
+  intro?: string;
+  localNeed?: string;
+  localProblems?: string[];
+  handledWork?: string[];
+  idealForText?: string;
+  reasons?: string[];
+  nearbyAreas?: string[];
+  caseStudies?: string[];
+  systemAndPricing?: string[];
+  faq?: FAQItem[];
+  primaryCta?: string;
 };

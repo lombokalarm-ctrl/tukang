@@ -2,17 +2,17 @@ import fs from "node:fs";
 import path from "node:path";
 import readingTime from "reading-time";
 
-import RenovasiGuide from "@/content/blog/biaya-renovasi-rumah-di-lombok.mdx";
-import TeknisiGuide from "@/content/blog/kapan-rumah-butuh-teknisi-listrik-dan-ac.mdx";
-import TukangGuide from "@/content/blog/tips-memilih-jasa-tukang-lombok.mdx";
+import BangunRumahGuide from "@/content/blog/biaya-bangun-rumah-di-lombok.mdx";
+import TukangHarianGuide from "@/content/blog/harga-tukang-harian-di-lombok.mdx";
+import RenovasiGuide from "@/content/blog/jasa-renovasi-rumah-di-lombok-mulai-dari-mana.mdx";
 import { articleMeta } from "@/lib/data";
 import { toHeadingId } from "@/lib/utils";
 import type { BlogArticle, TOCItem } from "@/lib/types";
 
 const articleComponentMap = {
-  "tips-memilih-jasa-tukang-lombok": TukangGuide,
-  "biaya-renovasi-rumah-di-lombok": RenovasiGuide,
-  "kapan-rumah-butuh-teknisi-listrik-dan-ac": TeknisiGuide,
+  "biaya-bangun-rumah-di-lombok": BangunRumahGuide,
+  "harga-tukang-harian-di-lombok": TukangHarianGuide,
+  "jasa-renovasi-rumah-di-lombok-mulai-dari-mana": RenovasiGuide,
 } as const;
 
 function getArticleSource(slug: string) {

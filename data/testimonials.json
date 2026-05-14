@@ -1,56 +1,74 @@
 [
   {
     "id": "tm-001",
-    "name": "Bapak Andi Saputra",
+    "name": "Bapak A.",
     "role": "Pemilik Rumah",
     "location": "Mataram",
     "rating": 5,
-    "quote": "Saya pakai TukangDiLombok untuk renovasi dapur dan hasilnya rapi. Komunikasi enak, progres jelas, dan timnya cepat respons di WhatsApp.",
+    "quote": "Timnya enak diajak komunikasi dan respons WhatsApp cepat. Renovasi beberapa bagian rumah berjalan rapi dan progresnya jelas. Cocok buat yang ingin kerja sama tanpa ribet.",
     "serviceSlug": "renovasi-rumah"
   },
   {
     "id": "tm-002",
-    "name": "Ibu Rani Kusuma",
-    "role": "Owner Villa",
-    "location": "Senggigi",
+    "name": "Ibu R.",
+    "role": "Pemilik Rumah",
+    "location": "Cakranegara",
     "rating": 5,
-    "quote": "Pasang CCTV dan penataan WiFi villa selesai rapi. Sangat membantu karena tamu tetap nyaman dan monitoring jadi lebih mudah.",
-    "serviceSlug": "tukang-cctv"
+    "quote": "Kami pakai jasa TukangDiLombok untuk perbaikan dan finishing beberapa bagian rumah. Hasilnya rapi, tukangnya komunikatif, dan pekerjaan selesai sesuai kebutuhan.",
+    "serviceSlug": "tukang-bangunan"
   },
   {
     "id": "tm-003",
-    "name": "Mr. Daniel W.",
-    "role": "Property Manager",
-    "location": "Kuta Mandalika",
+    "name": "Owner Villa",
+    "role": "Pengelola Properti",
+    "location": "Senggigi",
     "rating": 5,
-    "quote": "Timnya cocok untuk maintenance villa. Bisa handle beberapa item sekaligus dan hasil kerjanya profesional.",
-    "serviceSlug": "service-rumah-tangga"
+    "quote": "Kami butuh teknisi yang cepat untuk villa yang aktif dipakai tamu. Responsnya cepat, koordinasinya mudah, dan pengerjaan AC serta listrik cukup membantu operasional properti.",
+    "serviceSlug": "tukang-ac"
   },
   {
     "id": "tm-004",
-    "name": "Bapak M. Hidayat",
-    "role": "Pemilik Ruko",
+    "name": "Bapak D.",
+    "role": "Pemilik Rumah",
     "location": "Praya",
     "rating": 5,
-    "quote": "Masalah listrik dan AC di ruko cepat teratasi. Enaknya satu tim bisa bantu koordinasi beberapa teknisi sekaligus.",
-    "serviceSlug": "tukang-listrik"
+    "quote": "TukangDiLombok membantu renovasi area dapur dan kamar mandi rumah kami. Proses konsultasi awal jelas, pengerjaan rapi, dan hasilnya membuat rumah terasa lebih nyaman dipakai.",
+    "serviceSlug": "renovasi-rumah"
   },
   {
     "id": "tm-005",
-    "name": "Ibu Sari Lestari",
-    "role": "Ibu Rumah Tangga",
-    "location": "Lombok Barat",
+    "name": "Pemilik Homestay",
+    "role": "Pengelola Homestay",
+    "location": "Kuta Lombok",
     "rating": 5,
-    "quote": "Saya pesan tukang ledeng dan service rumah tangga. Tim datang sesuai jadwal, sopan, dan pengerjaan bersih.",
-    "serviceSlug": "tukang-ledeng"
+    "quote": "Kami butuh service AC untuk beberapa unit kamar. Penjadwalannya cukup cepat dan pengerjaan teknisinya rapi. Sangat membantu untuk properti yang harus selalu siap menerima tamu.",
+    "serviceSlug": "tukang-ac"
   },
   {
     "id": "tm-006",
-    "name": "Bapak Fajar Nugraha",
-    "role": "Developer Perumahan",
+    "name": "Ibu S.",
+    "role": "Pemilik Rumah",
+    "location": "Lombok Barat",
+    "rating": 5,
+    "quote": "Ada beberapa titik listrik di rumah yang perlu ditambah dan diperbaiki. Timnya membantu dengan baik, penjelasannya mudah dipahami, dan hasil pekerjaannya rapi.",
+    "serviceSlug": "tukang-listrik"
+  },
+  {
+    "id": "tm-007",
+    "name": "Pemilik Toko",
+    "role": "Pemilik Usaha",
+    "location": "Ampenan",
+    "rating": 5,
+    "quote": "Kami pasang CCTV untuk toko agar area kasir dan pintu masuk lebih mudah dipantau. Instalasinya rapi dan posisi kameranya juga dibantu disesuaikan dengan kebutuhan toko.",
+    "serviceSlug": "tukang-cctv"
+  },
+  {
+    "id": "tm-008",
+    "name": "Bapak H.",
+    "role": "Pemilik Rumah",
     "location": "Gerung",
     "rating": 5,
-    "quote": "Untuk kebutuhan tukang borongan dan tukang harian, platform ini sangat membantu. Fleksibel dan mudah koordinasi.",
-    "serviceSlug": "tukang-borongan"
+    "quote": "Pekerjaan pagar dan kanopi rumah dikerjakan dengan cukup rapi dan komunikasinya enak. Cocok untuk yang ingin cari tukang yang responsif dan mudah koordinasi.",
+    "serviceSlug": "tukang-bangunan"
   }
 ]
