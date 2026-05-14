@@ -12,10 +12,10 @@ export function Footer() {
         <div>
           <div className="text-2xl font-black">TukangDiLombok.com</div>
           <p className="mt-4 max-w-xl text-sm leading-7 text-slate-300">
-            Platform jasa tukang dan teknisi profesional di Lombok untuk rumah, villa, hotel, kantor, ruko, properti sewa, hingga proyek pengembang.
+            Jasa tukang dan teknisi profesional di Lombok untuk rumah, villa, hotel, kantor, ruko, properti sewa, hingga kebutuhan bangunan dan perawatan properti harian.
           </p>
           <p className="mt-4 text-sm leading-7 text-slate-400">
-            Fokus kami adalah SEO lokal, respons cepat, dan konversi WhatsApp agar pemilik properti lebih mudah menemukan tenaga kerja yang tepat di Lombok.
+            Kami membantu pelanggan mendapatkan layanan yang lebih cepat, komunikasi yang jelas, dan arahan awal yang mudah melalui WhatsApp.
           </p>
           <a className="mt-6 inline-flex rounded-full bg-orange-500 px-5 py-3 text-sm font-semibold text-white transition hover:bg-orange-600" href={createWhatsAppLink()} rel="noreferrer" target="_blank">
             Konsultasi Sekarang
@@ -42,7 +42,7 @@ export function Footer() {
           </div>
         </div>
         <div>
-          <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-slate-400">Konten SEO</h3>
+          <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-slate-400">Artikel Panduan</h3>
           <div className="mt-5 flex flex-col gap-3 text-sm text-slate-300">
             {articleMeta.map((item) => (
               <Link className="transition hover:text-orange-400" href={`/blog/${item.slug}`} key={item.slug}>

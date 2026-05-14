@@ -57,10 +57,10 @@ export function HeroSection() {
 
         <div className="space-y-6">
           <div className="rounded-[2rem] bg-slate-950 p-8 text-white shadow-2xl shadow-slate-900/10">
-            <div className="text-sm font-black uppercase tracking-[0.24em] text-orange-300">Platform Andal</div>
-            <h2 className="mt-3 text-2xl font-black">SEO Lokal Kuat, CTA Jelas, dan Mudah Scalable</h2>
+            <div className="text-sm font-black uppercase tracking-[0.24em] text-orange-300">Layanan Andal</div>
+            <h2 className="mt-3 text-2xl font-black">Solusi cepat untuk kebutuhan rumah dan properti di Lombok</h2>
             <p className="mt-4 text-sm leading-7 text-slate-300">
-              Arsitektur website ini dibuat agar mudah menambah ribuan landing page programmatic SEO berbasis kombinasi layanan dan area di Lombok.
+              Mulai dari bangunan, renovasi, listrik, AC, hingga CCTV, tim TukangDiLombok siap membantu Anda menemukan layanan yang paling sesuai dengan kebutuhan dan lokasi properti Anda.
             </p>
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
               <div className="rounded-3xl bg-white/8 p-4">
@@ -69,7 +69,7 @@ export function HeroSection() {
               </div>
               <div className="rounded-3xl bg-white/8 p-4">
                 <div className="text-3xl font-black text-white">5</div>
-                <div className="mt-1 text-sm text-slate-300">Layanan unggulan</div>
+                <div className="mt-1 text-sm text-slate-300">Layanan utama yang paling sering dipesan</div>
               </div>
             </div>
           </div>

@@ -35,6 +35,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     keywords: article.keywords,
     image: article.coverImage,
     type: "article",
+    authors: [article.author],
+    publishedTime: article.publishedAt,
+    modifiedTime: article.updatedAt,
   });
 }
 

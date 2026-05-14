@@ -96,18 +96,18 @@ export default function Home() {
             </div>
           </div>
           <div className="rounded-[2rem] bg-slate-950 p-8 text-white shadow-2xl shadow-slate-900/10">
-            <div className="inline-flex rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-orange-200">Fokus untuk market lokal Lombok</div>
+            <div className="inline-flex rounded-full bg-white/10 px-4 py-2 text-sm font-semibold text-orange-200">Melayani kebutuhan properti di seluruh Lombok</div>
             <h3 className="mt-5 text-3xl font-black">Solusi Tukang dan Teknisi untuk Rumah hingga Properti Komersial</h3>
             <p className="mt-4 text-base leading-8 text-slate-300">
               TukangDiLombok melayani rumah tinggal, villa, hotel, ruko, kantor, kos, homestay, hingga properti hospitality di berbagai wilayah Lombok. Dengan tim tukang dan teknisi berpengalaman, kami mengutamakan hasil kerja yang rapi, komunikasi yang mudah, serta fleksibilitas sistem pengerjaan sesuai kebutuhan pelanggan.
             </p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               <div className="rounded-3xl bg-white/8 p-5">
-                <div className="text-sm uppercase tracking-[0.2em] text-slate-400">Fokus Layanan</div>
+                <div className="text-sm uppercase tracking-[0.2em] text-slate-400">Cakupan Layanan</div>
                 <div className="mt-2 text-lg font-bold">Rumah, Villa, Hotel, dan Bisnis</div>
               </div>
               <div className="rounded-3xl bg-white/8 p-5">
-                <div className="text-sm uppercase tracking-[0.2em] text-slate-400">Primary CTA</div>
+                <div className="text-sm uppercase tracking-[0.2em] text-slate-400">Cara Menghubungi Kami</div>
                 <div className="mt-2 text-lg font-bold">Konsultasi WhatsApp Cepat</div>
               </div>
             </div>
@@ -220,9 +220,9 @@ export default function Home() {
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <SectionHeading
-            description="Artikel blog membantu menjawab pertanyaan pelanggan sebelum konsultasi, memperkuat SEO lokal, dan mendukung internal linking ke halaman layanan dan area."
+            description="Artikel blog membantu menjawab pertanyaan pelanggan sebelum konsultasi, terutama soal biaya, sistem kerja, dan langkah awal yang perlu disiapkan."
             eyebrow="Artikel Terbaru"
-            title="Artikel terbaru untuk memperkuat SEO lokal"
+            title="Artikel terbaru untuk membantu Anda mengambil keputusan"
           />
           <Button asChild variant="outline">
             <Link href="/blog">
@@ -257,22 +257,22 @@ export default function Home() {
       <section className="bg-slate-950 py-16 text-white">
         <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[1fr_0.9fr] lg:px-8">
           <div>
-            <div className="text-sm font-black uppercase tracking-[0.24em] text-orange-300">Footer SEO</div>
-            <h2 className="mt-4 text-3xl font-black">Website jasa tukang profesional untuk rumah, villa, hotel, dan properti di Lombok</h2>
+            <div className="text-sm font-black uppercase tracking-[0.24em] text-orange-300">Siap Membantu Anda</div>
+            <h2 className="mt-4 text-3xl font-black">Butuh tukang atau teknisi yang mudah dihubungi di Lombok?</h2>
             <p className="mt-4 max-w-3xl text-base leading-8 text-slate-300">
-              TukangDiLombok.com dirancang untuk menangkap kebutuhan pencarian lokal seperti tukang bangunan Lombok, tukang AC Lombok, tukang listrik Lombok, jasa renovasi rumah Lombok, tukang harian Lombok, tukang borongan Lombok, dan kombinasi area layanan di seluruh Pulau Lombok dengan CTA WhatsApp yang jelas dan respons cepat.
+              TukangDiLombok membantu pemilik rumah, villa, hotel, ruko, kantor, dan properti usaha di Lombok untuk menemukan tukang dan teknisi yang tepat dengan konsultasi awal yang cepat, jelas, dan mudah lewat WhatsApp.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="rounded-[2rem] bg-white/6 p-6">
               <MapPin className="h-5 w-5 text-orange-300" />
-              <h3 className="mt-4 text-lg font-bold">Coverage Area</h3>
+              <h3 className="mt-4 text-lg font-bold">Area Layanan Populer</h3>
               <p className="mt-2 text-sm leading-7 text-slate-300">Mataram, Senggigi, Praya, Kuta Lombok, Gerung, Batulayar, Ampenan, Cakranegara, Gunungsari, Narmada, dan seluruh Lombok.</p>
             </div>
             <div className="rounded-[2rem] bg-white/6 p-6">
               <PhoneCall className="h-5 w-5 text-orange-300" />
-              <h3 className="mt-4 text-lg font-bold">High Conversion CTA</h3>
-              <p className="mt-2 text-sm leading-7 text-slate-300">Seluruh alur diarahkan ke konsultasi WhatsApp agar inquiry lebih cepat masuk dari mobile maupun desktop.</p>
+              <h3 className="mt-4 text-lg font-bold">Konsultasi Cepat</h3>
+              <p className="mt-2 text-sm leading-7 text-slate-300">Anda bisa langsung kirim lokasi, foto area kerja, dan kebutuhan utama agar tim kami membantu mengarahkan layanan yang paling sesuai.</p>
             </div>
           </div>
         </div>
