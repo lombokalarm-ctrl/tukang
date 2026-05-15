@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { createWhatsAppLink } from "@/lib/site";
+import { cn } from "@/lib/utils";
 
 export function CTASection({
   title,
@@ -20,16 +21,18 @@ export function CTASection({
         <p className="mt-4 text-base leading-8 text-sky-50">{description}</p>
       </div>
       <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-        <Button
-          asChild
-          className="border-white bg-white text-sky-700 hover:border-slate-100 hover:bg-slate-100 hover:text-sky-700"
-          variant="outline"
+        <a
+          className={cn(
+            "inline-flex h-11 items-center justify-center gap-2 whitespace-nowrap rounded-full border border-white bg-white px-5 text-sm font-semibold text-sky-700 transition-all",
+            "hover:border-slate-100 hover:bg-slate-100 hover:text-sky-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
+          )}
+          href={createWhatsAppLink(message)}
+          rel="noreferrer"
+          target="_blank"
         >
-          <a href={createWhatsAppLink(message)} rel="noreferrer" target="_blank">
-            <MessageCircle className="h-4 w-4" />
-            Chat WhatsApp Sekarang
-          </a>
-        </Button>
+          <MessageCircle className="h-4 w-4" />
+          Chat WhatsApp Sekarang
+        </a>
         <Button asChild className="border-white/30 bg-white/10 text-white hover:bg-white/15 hover:text-white" variant="outline">
           <Link href="/kontak">
             Lihat Halaman Kontak
