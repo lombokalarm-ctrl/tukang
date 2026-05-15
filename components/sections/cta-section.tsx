@@ -20,7 +20,11 @@ export function CTASection({
         <p className="mt-4 text-base leading-8 text-sky-50">{description}</p>
       </div>
       <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-        <Button asChild className="bg-white text-sky-700 hover:bg-slate-100">
+        <Button
+          asChild
+          className="border-white bg-white text-sky-700 hover:border-slate-100 hover:bg-slate-100 hover:text-sky-700"
+          variant="outline"
+        >
           <a href={createWhatsAppLink(message)} rel="noreferrer" target="_blank">
             <MessageCircle className="h-4 w-4" />
             Chat WhatsApp Sekarang
