@@ -14,8 +14,8 @@ export const metadata: Metadata = buildMetadata({
 
 export const revalidate = 3600;
 
-export default function BlogPage() {
-  const articles = getAllArticles();
+export default async function BlogPage() {
+  const articles = await getAllArticles();
   const articleTopics = [
     "Estimasi biaya bangun rumah di Lombok",
     "Kisaran harga tukang harian dan sistem kerja",

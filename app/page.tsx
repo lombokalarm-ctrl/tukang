@@ -56,10 +56,10 @@ const decisionLinks = [
   },
 ];
 
-export default function Home() {
+export default async function Home() {
   const featuredServices = getFeaturedServices();
   const featuredAreas = getFeaturedLocations();
-  const latestArticles = getAllArticles().slice(0, 3);
+  const latestArticles = (await getAllArticles()).slice(0, 3);
 
   return (
     <div>

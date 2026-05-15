@@ -49,7 +49,9 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
 
   const relatedServices = getRelatedServices(service.slug, 4);
   const areas = getFeaturedLocations().slice(0, 4);
-  const articles = getAllArticles().filter((article) => article.keywords.some((keyword) => service.keywords.includes(keyword))).slice(0, 3);
+  const articles = (await getAllArticles())
+    .filter((article) => article.keywords.some((keyword) => service.keywords.includes(keyword)))
+    .slice(0, 3);
   const faqItems = service.faq?.length ? service.faq : siteFaqs.slice(0, 4);
   const breadcrumbs = [
     { name: "Beranda", path: "/" },

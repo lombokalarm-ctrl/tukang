@@ -16,13 +16,13 @@ import { formatDate } from "@/lib/utils";
 export const revalidate = 3600;
 export const dynamicParams = false;
 
-export function generateStaticParams() {
-  return getAllArticles().map((article) => ({ slug: article.slug }));
+export async function generateStaticParams() {
+  return (await getAllArticles()).map((article) => ({ slug: article.slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  const article = getArticleBySlug(slug);
+  const article = await getArticleBySlug(slug);
 
   if (!article) {
     return buildMetadata({ title: "Artikel Tidak Ditemukan", description: "Artikel tidak ditemukan.", path: "/blog" });
@@ -43,13 +43,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 export default async function BlogDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
-  const article = getArticleBySlug(slug);
+  const article = await getArticleBySlug(slug);
 
   if (!article) {
     notFound();
   }
 
-  const related = getRelatedArticles(article.slug, 3);
+  const related = await getRelatedArticles(article.slug, 3);
   const articleUrl = absoluteUrl(`/blog/${article.slug}`);
   const breadcrumbs = [
     { name: "Beranda", path: "/" },

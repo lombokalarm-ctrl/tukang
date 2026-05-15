@@ -1,10 +1,13 @@
 import fs from "node:fs";
 import path from "node:path";
+import { BlogStatus } from "@prisma/client";
 import readingTime from "reading-time";
 
 import BangunRumahGuide from "@/content/blog/biaya-bangun-rumah-di-lombok.mdx";
 import TukangHarianGuide from "@/content/blog/harga-tukang-harian-di-lombok.mdx";
 import RenovasiGuide from "@/content/blog/jasa-renovasi-rumah-di-lombok-mulai-dari-mana.mdx";
+import { createMarkdownArticleComponent } from "@/lib/blog-content";
+import { prisma } from "@/lib/db/prisma";
 import { articleMeta } from "@/lib/data";
 import { toHeadingId } from "@/lib/utils";
 import type { BlogArticle, TOCItem } from "@/lib/types";
@@ -36,7 +39,7 @@ function extractToc(source: string): TOCItem[] {
     });
 }
 
-export function getAllArticles(): BlogArticle[] {
+function getStaticArticles(): BlogArticle[] {
   return articleMeta
     .map((meta) => {
       const source = getArticleSource(meta.slug);
@@ -50,13 +53,76 @@ export function getAllArticles(): BlogArticle[] {
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt));
 }
 
-export function getArticleBySlug(slug: string) {
-  return getAllArticles().find((article) => article.slug === slug);
+async function getDatabaseArticles(): Promise<BlogArticle[]> {
+  if (!process.env.DATABASE_URL) {
+    return [];
+  }
+
+  try {
+    const posts = await prisma.blogPost.findMany({
+      where: {
+        status: BlogStatus.PUBLISHED,
+      },
+      include: {
+        keywords: {
+          orderBy: { keyword: "asc" },
+        },
+      },
+      orderBy: {
+        publishedAt: "desc",
+      },
+    });
+
+    return posts.map((post) => {
+      const source = post.content;
+
+      return {
+        slug: post.slug,
+        title: post.title,
+        excerpt: post.excerpt,
+        category: post.category,
+        coverImage: post.coverImage ?? "/blog/blog-1.svg",
+        publishedAt: (post.publishedAt ?? post.createdAt).toISOString(),
+        updatedAt: post.updatedAt.toISOString(),
+        author: post.authorName,
+        keywords: post.keywords.map((item) => item.keyword),
+        readingTime: readingTime(source).text,
+        toc: extractToc(source),
+        Content: createMarkdownArticleComponent(source),
+      } satisfies BlogArticle;
+    });
+  } catch {
+    return [];
+  }
 }
 
-export function getRelatedArticles(slug: string, limit = 3) {
-  const current = getArticleBySlug(slug);
-  const articles = getAllArticles().filter((article) => article.slug !== slug);
+function mergeArticles(staticArticles: BlogArticle[], databaseArticles: BlogArticle[]) {
+  const articleMap = new Map<string, BlogArticle>();
+
+  for (const article of staticArticles) {
+    articleMap.set(article.slug, article);
+  }
+
+  for (const article of databaseArticles) {
+    articleMap.set(article.slug, article);
+  }
+
+  return Array.from(articleMap.values()).sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt));
+}
+
+export async function getAllArticles(): Promise<BlogArticle[]> {
+  const [staticArticles, databaseArticles] = await Promise.all([Promise.resolve(getStaticArticles()), getDatabaseArticles()]);
+  return mergeArticles(staticArticles, databaseArticles);
+}
+
+export async function getArticleBySlug(slug: string) {
+  const articles = await getAllArticles();
+  return articles.find((article) => article.slug === slug);
+}
+
+export async function getRelatedArticles(slug: string, limit = 3) {
+  const current = await getArticleBySlug(slug);
+  const articles = (await getAllArticles()).filter((article) => article.slug !== slug);
 
   if (!current) {
     return articles.slice(0, limit);

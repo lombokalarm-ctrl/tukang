@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { createWhatsAppLink } from "@/lib/site";
@@ -25,11 +26,11 @@ export function CTASection({
             Chat WhatsApp Sekarang
           </a>
         </Button>
-        <Button asChild variant="outline" className="border-white/30 bg-white/10 text-white hover:bg-white/15 hover:text-white">
-          <a href="/kontak">
+        <Button asChild className="border-white/30 bg-white/10 text-white hover:bg-white/15 hover:text-white" variant="outline">
+          <Link href="/kontak">
             Lihat Halaman Kontak
             <ArrowRight className="h-4 w-4" />
-          </a>
+          </Link>
         </Button>
       </div>
     </section>

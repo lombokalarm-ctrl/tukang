@@ -12,7 +12,7 @@ import { SectionHeading } from "@/components/sections/section-heading";
 import { TestimonialCard } from "@/components/sections/testimonial-card";
 import { Button } from "@/components/ui/button";
 import { getAllArticles } from "@/lib/blog";
-import { getAllLandingPages, getLandingBySlug, getRelatedServices, getServicePortfolio, getServiceTestimonials, siteFaqs } from "@/lib/data";
+import { getAllLandingPages, getLandingBySlug, getServicePortfolio, getServiceTestimonials, siteFaqs } from "@/lib/data";
 import { buildMetadata } from "@/lib/seo";
 import { breadcrumbSchema, faqSchema, landingServiceSchema } from "@/lib/schema";
 
@@ -50,7 +50,9 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
   const relatedLandings = getAllLandingPages().filter((item) => item.location.slug === landing.location.slug && item.slug !== landing.slug).slice(0, 6);
   const portfolio = getServicePortfolio(landing.service.slug).slice(0, 2);
   const testimonials = getServiceTestimonials(landing.service.slug).slice(0, 3);
-  const relatedArticles = getAllArticles().filter((article) => article.keywords.some((keyword) => landing.service.keywords.includes(keyword))).slice(0, 3);
+  const relatedArticles = (await getAllArticles())
+    .filter((article) => article.keywords.some((keyword) => landing.service.keywords.includes(keyword)))
+    .slice(0, 3);
   const faqItems = landing.faq?.length ? landing.faq : siteFaqs.slice(0, 4);
   const breadcrumbs = [
     { name: "Beranda", path: "/" },

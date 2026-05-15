@@ -3,7 +3,7 @@ import { getAllLandingPages, locations, services } from "@/lib/data";
 import { getAllArticles } from "@/lib/blog";
 import { absoluteUrl } from "@/lib/seo";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
   const staticRoutes = [
     "",
@@ -37,7 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly" as const,
       priority: 0.75,
     })),
-    ...getAllArticles().map((article) => ({
+    ...(await getAllArticles()).map((article) => ({
       url: absoluteUrl(`/blog/${article.slug}`),
       lastModified: new Date(article.updatedAt),
       changeFrequency: "monthly" as const,

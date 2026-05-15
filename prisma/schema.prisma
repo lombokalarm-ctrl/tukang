@@ -1,0 +1,44 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model BlogPost {
+  id              Int          @id @default(autoincrement())
+  title           String
+  slug            String       @unique
+  excerpt         String       @db.Text
+  category        String
+  coverImage      String?
+  authorName      String
+  content         String       @db.LongText
+  metaTitle       String?
+  metaDescription String?      @db.Text
+  status          BlogStatus   @default(DRAFT)
+  publishedAt     DateTime?
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+  keywords        BlogKeyword[]
+
+  @@index([status, publishedAt])
+  @@index([category])
+}
+
+model BlogKeyword {
+  id      Int      @id @default(autoincrement())
+  keyword String
+  postId  Int
+  post    BlogPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  @@index([postId])
+  @@unique([postId, keyword])
+}
+
+enum BlogStatus {
+  DRAFT
+  PUBLISHED
+}

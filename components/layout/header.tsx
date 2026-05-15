@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Menu, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { createWhatsAppLink, navigationItems } from "@/lib/site";
 
 export function Header() {
@@ -42,6 +42,8 @@ export function Header() {
             </button>
           </SheetTrigger>
           <SheetContent>
+            <SheetTitle className="sr-only">Menu navigasi mobile</SheetTitle>
+            <SheetDescription className="sr-only">Buka navigasi utama dan akses cepat ke WhatsApp.</SheetDescription>
             <div className="space-y-6 pt-8">
               <div>
                 <div className="text-lg font-bold text-slate-900">TukangDiLombok.com</div>
