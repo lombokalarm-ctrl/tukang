@@ -23,8 +23,8 @@ export function CTASection({
       <div className="mt-8 flex flex-col gap-3 sm:flex-row">
         <a
           className={cn(
-            "inline-flex h-11 items-center justify-center gap-2 whitespace-nowrap rounded-full border border-white bg-white px-5 text-sm font-semibold text-sky-700 transition-all",
-            "hover:border-slate-100 hover:bg-slate-100 hover:text-sky-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
+            "inline-flex h-11 items-center justify-center gap-2 whitespace-nowrap rounded-full border border-white bg-white px-5 text-sm font-semibold text-black transition-all",
+            "hover:border-slate-100 hover:bg-slate-100 hover:text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-400"
           )}
           href={createWhatsAppLink(message)}
           rel="noreferrer"
