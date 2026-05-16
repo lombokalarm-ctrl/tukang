@@ -53,6 +53,10 @@ function getStaticArticles(): BlogArticle[] {
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt));
 }
 
+function logDatabaseArticleError(error: unknown) {
+  console.error("[blog] Failed to read published database articles. Falling back to static articles only.", error);
+}
+
 async function getDatabaseArticles(): Promise<BlogArticle[]> {
   if (!process.env.DATABASE_URL) {
     return [];
@@ -86,12 +90,15 @@ async function getDatabaseArticles(): Promise<BlogArticle[]> {
         updatedAt: post.updatedAt.toISOString(),
         author: post.authorName,
         keywords: post.keywords.map((item) => item.keyword),
+        metaTitle: post.metaTitle ?? undefined,
+        metaDescription: post.metaDescription ?? undefined,
         readingTime: readingTime(source).text,
         toc: extractToc(source),
         Content: createMarkdownArticleComponent(source),
       } satisfies BlogArticle;
     });
-  } catch {
+  } catch (error) {
+    logDatabaseArticleError(error);
     return [];
   }
 }

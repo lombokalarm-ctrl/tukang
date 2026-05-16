@@ -14,7 +14,7 @@ import { articleSchema, breadcrumbSchema } from "@/lib/schema";
 import { formatDate } from "@/lib/utils";
 
 export const revalidate = 3600;
-export const dynamicParams = false;
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
   return (await getAllArticles()).map((article) => ({ slug: article.slug }));
@@ -29,8 +29,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return buildMetadata({
-    title: `${article.title} | Blog TukangDiLombok.com`,
-    description: article.excerpt,
+    title: article.metaTitle ?? `${article.title} | Blog TukangDiLombok.com`,
+    description: article.metaDescription ?? article.excerpt,
     path: `/blog/${article.slug}`,
     keywords: article.keywords,
     image: article.coverImage,

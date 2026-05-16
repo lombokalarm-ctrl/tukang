@@ -89,6 +89,8 @@ export type ArticleMeta = {
   updatedAt: string;
   author: string;
   keywords: string[];
+  metaTitle?: string;
+  metaDescription?: string;
 };
 
 export type BreadcrumbItem = {
