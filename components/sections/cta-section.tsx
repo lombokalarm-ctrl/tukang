@@ -28,10 +28,11 @@ export function CTASection({
           )}
           href={createWhatsAppLink(message)}
           rel="noreferrer"
+          style={{ color: "#020617" }}
           target="_blank"
         >
-          <MessageCircle className="h-4 w-4" />
-          Chat WhatsApp Sekarang
+          <MessageCircle className="h-4 w-4" style={{ color: "#020617" }} />
+          <span style={{ color: "#020617" }}>Chat WhatsApp Sekarang</span>
         </a>
         <Button asChild className="border-white/30 bg-white/10 text-white hover:bg-white/15 hover:text-white" variant="outline">
           <Link href="/kontak">
