@@ -3,7 +3,14 @@
 }
 
 .prose-content a {
+  color: #0369a1;
+  text-decoration: underline;
+  text-decoration-color: #bae6fd;
   text-underline-offset: 4px;
+}
+
+.prose-content a:hover {
+  color: #ea580c;
 }
 
 .prose-content img {

@@ -85,16 +85,52 @@ function toDateTimeLocal(value?: string) {
   return localDate.toISOString().slice(0, 16);
 }
 
-function renderInlinePreview(text: string) {
-  const parts = text.split(/(\*\*.*?\*\*)/g);
+function isExternalUrl(url: string) {
+  return /^https?:\/\//.test(url);
+}
 
-  return parts.map((part, index) => {
-    if (part.startsWith("**") && part.endsWith("**") && part.length > 4) {
-      return <strong key={`${part}-${index}`}>{part.slice(2, -2)}</strong>;
+function renderInlinePreview(text: string) {
+  const nodes: React.ReactNode[] = [];
+  const pattern = /(\*\*.*?\*\*|\[([^\]]+)\]\(([^)]+)\))/g;
+  let lastIndex = 0;
+  let match: RegExpExecArray | null = pattern.exec(text);
+
+  while (match) {
+    if (match.index > lastIndex) {
+      nodes.push(text.slice(lastIndex, match.index));
     }
 
-    return part;
-  });
+    const token = match[0];
+    const linkLabel = match[2];
+    const linkHref = match[3];
+
+    if (token.startsWith("**") && token.endsWith("**") && token.length > 4) {
+      nodes.push(<strong key={`preview-bold-${match.index}`}>{token.slice(2, -2)}</strong>);
+    } else if (linkLabel && linkHref) {
+      nodes.push(
+        <a
+          className="font-semibold text-sky-700 underline decoration-sky-200 underline-offset-4 transition hover:text-orange-600"
+          href={linkHref}
+          key={`preview-link-${match.index}`}
+          rel={isExternalUrl(linkHref) ? "noreferrer" : undefined}
+          target={isExternalUrl(linkHref) ? "_blank" : undefined}
+        >
+          {linkLabel}
+        </a>,
+      );
+    } else {
+      nodes.push(token);
+    }
+
+    lastIndex = pattern.lastIndex;
+    match = pattern.exec(text);
+  }
+
+  if (lastIndex < text.length) {
+    nodes.push(text.slice(lastIndex));
+  }
+
+  return nodes;
 }
 
 function buildPreviewNodes(source: string) {
