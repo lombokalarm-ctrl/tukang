@@ -1,13 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
-import { BlogStatus } from "@prisma/client";
 import readingTime from "reading-time";
 
 import BangunRumahGuide from "@/content/blog/biaya-bangun-rumah-di-lombok.mdx";
 import TukangHarianGuide from "@/content/blog/harga-tukang-harian-di-lombok.mdx";
 import RenovasiGuide from "@/content/blog/jasa-renovasi-rumah-di-lombok-mulai-dari-mana.mdx";
 import { createMarkdownArticleComponent } from "@/lib/blog-content";
-import { prisma } from "@/lib/db/prisma";
 import { articleMeta } from "@/lib/data";
 import { toHeadingId } from "@/lib/utils";
 import type { BlogArticle, TOCItem } from "@/lib/types";
@@ -63,6 +61,11 @@ async function getDatabaseArticles(): Promise<BlogArticle[]> {
   }
 
   try {
+    const [{ BlogStatus }, { prisma }] = await Promise.all([
+      import("@prisma/client"),
+      import("./db/prisma"),
+    ]);
+
     const posts = await prisma.blogPost.findMany({
       where: {
         status: BlogStatus.PUBLISHED,

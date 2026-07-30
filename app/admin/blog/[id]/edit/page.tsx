@@ -68,7 +68,7 @@ export default async function EditAdminBlogPostPage({ params }: { params: Promis
               content: post.content,
               coverImage: post.coverImage ?? "",
               excerpt: post.excerpt,
-              keywords: post.keywords.map((item) => item.keyword).join(", "),
+              keywords: post.keywords.map((item: { keyword: string }) => item.keyword).join(", "),
               metaDescription: post.metaDescription ?? "",
               metaTitle: post.metaTitle ?? "",
               publishedAt: post.publishedAt?.toISOString(),
